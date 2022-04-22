@@ -1,0 +1,3544 @@
+{
+  "search_id": "184d5b4e-9af2-e18d-b7c6-36c964d6de3e",
+  "time": 1,
+  "currency": "EUR",
+  "fx_rate": 1,
+  "data": [
+    {
+      "id": "1f2f032d4aeb00006aa4bb45_0|032d01af4aeb0000e2b22422_0",
+      "flyFrom": "BRQ",
+      "flyTo": "BCN",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Barcelona",
+      "cityCodeTo": "BCN",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "ES",
+        "name": "Spain"
+      },
+      "dTime": 1657128600,
+      "dTimeUTC": 1657121400,
+      "aTime": 1657151100,
+      "aTimeUTC": 1657143900,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 121.999845,
+      "popularity": 11502682,
+      "distance": 1437.28,
+      "duration": {
+        "departure": 22500,
+        "return": 0,
+        "total": 22500
+      },
+      "fly_duration": "6h 15m",
+      "price": 60,
+      "conversion": {
+        "EUR": 60
+      },
+      "discount_data": {
+        "original_price": 60
+      },
+      "bags_price": {
+        "hand": 61.92,
+        "1": 112.635,
+        "2": 225.27,
+        "personal_item": 0
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81,
+        "personal_item_height": 25,
+        "personal_item_length": 40,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": 3
+      },
+      "routes": [
+        [
+          "BRQ",
+          "BCN"
+        ]
+      ],
+      "airlines": [
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4aeb00006aa4bb45_0",
+          "combination_id": "1f2f032d4aeb00006aa4bb45",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1657128600,
+          "dTimeUTC": 1657121400,
+          "aTime": 1657132500,
+          "aTimeUTC": 1657128900,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650553371,
+          "refresh_timestamp": 1650553371,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "032d01af4aeb0000e2b22422_0",
+          "combination_id": "032d01af4aeb0000e2b22422",
+          "flyFrom": "STN",
+          "flyTo": "BCN",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Barcelona",
+          "cityCodeTo": "BCN",
+          "dTime": 1657139700,
+          "dTimeUTC": 1657136100,
+          "aTime": 1657151100,
+          "aTimeUTC": 1657143900,
+          "airline": "FR",
+          "flight_no": 9814,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.885,
+          "lngFrom": 0.235,
+          "latTo": 41.2969444,
+          "lngTo": 2.07833333,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "barcelona_es",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650548496,
+          "refresh_timestamp": 1650548496,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "DQa_hRvMrf2dBbgZfrthWHOB06B_F3DnL7ghaQwvoXMFDHyltMjIhN_Z2HYSEnyXYwDdRrc7WCXu5o_81EpTiRdJX4QudvxTZVZ2dBBUQhu5_i6vR8RVIJUNaNFKA-U7-Pbqhi1_6vpB4IesTNApccWcEC-OqNryvZLrOXJ94WgDBwWTx8_6DwN7nb8X0P7aBwoMCd9F1VTt1xDxMERhGiMPjdgJz0nUegmAYbLCwGYS7aYA_suAtsDxJBnOR9GQxsecA3o7Ui6dY37nDuBhMVn7HiD-7gHpBjfNF5TgigzrH1ZuIhvk0RYyWgOTu67OhhYkYpKTNuKAG14sFvSTY5AVtsIliA_WmUs2Aw-LOgp3jJcaSUhvyBwSpFrMj0niagNVoy27PwF1O7ksBvn9Z1kBQZFA9UCkyH2xJvSL1y1e4L8L3dHo9dI4Xlb3MIYViMCjIaqulnYI4WQDNO1nCpOuiqFDizHob_771wMfT7FTBBbpAWvVOfA6LbtqVGdJZry8IXEcrj-cArqJUl1usgU1R_GoDTGwPN9NO1G578m5HeRx8sB8EIHdQiXi3PF2-OIcka-XAmzsYgxr3k6HEEw==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4aeb00006aa4bb45_0%7C032d01af4aeb0000e2b22422_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=BCN\u0026booking_token=DQa_hRvMrf2dBbgZfrthWHOB06B_F3DnL7ghaQwvoXMFDHyltMjIhN_Z2HYSEnyXYwDdRrc7WCXu5o_81EpTiRdJX4QudvxTZVZ2dBBUQhu5_i6vR8RVIJUNaNFKA-U7-Pbqhi1_6vpB4IesTNApccWcEC-OqNryvZLrOXJ94WgDBwWTx8_6DwN7nb8X0P7aBwoMCd9F1VTt1xDxMERhGiMPjdgJz0nUegmAYbLCwGYS7aYA_suAtsDxJBnOR9GQxsecA3o7Ui6dY37nDuBhMVn7HiD-7gHpBjfNF5TgigzrH1ZuIhvk0RYyWgOTu67OhhYkYpKTNuKAG14sFvSTY5AVtsIliA_WmUs2Aw-LOgp3jJcaSUhvyBwSpFrMj0niagNVoy27PwF1O7ksBvn9Z1kBQZFA9UCkyH2xJvSL1y1e4L8L3dHo9dI4Xlb3MIYViMCjIaqulnYI4WQDNO1nCpOuiqFDizHob_771wMfT7FTBBbpAWvVOfA6LbtqVGdJZry8IXEcrj-cArqJUl1usgU1R_GoDTGwPN9NO1G578m5HeRx8sB8EIHdQiXi3PF2-OIcka-XAmzsYgxr3k6HEEw==",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4aeb00006aa4bb45_0%7C032d01af4aeb0000e2b22422_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=BCN\u0026booking_token=DQa_hRvMrf2dBbgZfrthWHOB06B_F3DnL7ghaQwvoXMFDHyltMjIhN_Z2HYSEnyXYwDdRrc7WCXu5o_81EpTiRdJX4QudvxTZVZ2dBBUQhu5_i6vR8RVIJUNaNFKA-U7-Pbqhi1_6vpB4IesTNApccWcEC-OqNryvZLrOXJ94WgDBwWTx8_6DwN7nb8X0P7aBwoMCd9F1VTt1xDxMERhGiMPjdgJz0nUegmAYbLCwGYS7aYA_suAtsDxJBnOR9GQxsecA3o7Ui6dY37nDuBhMVn7HiD-7gHpBjfNF5TgigzrH1ZuIhvk0RYyWgOTu67OhhYkYpKTNuKAG14sFvSTY5AVtsIliA_WmUs2Aw-LOgp3jJcaSUhvyBwSpFrMj0niagNVoy27PwF1O7ksBvn9Z1kBQZFA9UCkyH2xJvSL1y1e4L8L3dHo9dI4Xlb3MIYViMCjIaqulnYI4WQDNO1nCpOuiqFDizHob_771wMfT7FTBBbpAWvVOfA6LbtqVGdJZry8IXEcrj-cArqJUl1usgU1R_GoDTGwPN9NO1G578m5HeRx8sB8EIHdQiXi3PF2-OIcka-XAmzsYgxr3k6HEEw==",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "barcelona_es",
+      "hashtags": [
+        "afternoon",
+        "evening",
+        "wednesday",
+        "1stop",
+        "duration:6-7",
+        "departure:17-18",
+        "arrival:23-24"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4ae2000080849088_0|032d1db84ae300002310e5b1_0",
+      "flyFrom": "BRQ",
+      "flyTo": "SAW",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Istanbul",
+      "cityCodeTo": "IST",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "TR",
+        "name": "Turkey"
+      },
+      "dTime": 1656357600,
+      "dTimeUTC": 1656350400,
+      "aTime": 1656395700,
+      "aTimeUTC": 1656384900,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 229.666445,
+      "popularity": 10475949,
+      "distance": 1349.15,
+      "duration": {
+        "departure": 34500,
+        "return": 0,
+        "total": 34500
+      },
+      "fly_duration": "9h 35m",
+      "price": 141,
+      "conversion": {
+        "EUR": 141
+      },
+      "discount_data": {
+        "original_price": 141
+      },
+      "bags_price": {
+        "hand": 29.678,
+        "1": 82.62,
+        "2": 243.165
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 8,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28
+      },
+      "availability": {
+        "seats": 1
+      },
+      "routes": [
+        [
+          "BRQ",
+          "SAW"
+        ]
+      ],
+      "airlines": [
+        "PC",
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4ae2000080849088_0",
+          "combination_id": "1f2f032d4ae2000080849088",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1656357600,
+          "dTimeUTC": 1656350400,
+          "aTime": 1656361500,
+          "aTimeUTC": 1656357900,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650553305,
+          "refresh_timestamp": 1650553305,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "032d1db84ae300002310e5b1_0",
+          "combination_id": "032d1db84ae300002310e5b1",
+          "flyFrom": "STN",
+          "flyTo": "SAW",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Istanbul",
+          "cityCodeTo": "IST",
+          "dTime": 1656374700,
+          "dTimeUTC": 1656371100,
+          "aTime": 1656395700,
+          "aTimeUTC": 1656384900,
+          "airline": "PC",
+          "flight_no": 1174,
+          "operating_carrier": "PC",
+          "operating_flight_no": "1174",
+          "fare_basis": "PWEB/INT",
+          "fare_category": "M",
+          "fare_classes": "P",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.885,
+          "lngFrom": 0.235,
+          "latTo": 40.8986111,
+          "lngTo": 29.3091667,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "istanbul_tr",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650553631,
+          "refresh_timestamp": 1650553631,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "Dw2fDkPi7MDEKGZmxG2uf5i8le0nZkAB10vI_1BfFu46eVTE7ovrsr4v-yWR2vQa3npcYNmQOMcWF_jFMUkGM0HfelV9HpFML9mcUhI6JQaBjz99e6v9BePHZHzi_WNMfMdTqwCgesHAjqw8P6W-Equpea4tRF_8NZO5Ww-stcuxEtSnE2w3DfdlVntqla2DoF5cszyk45YCZeOwzBO9fXrxLzk27kUmA7D6vghDG3xcVJCyEfPm010rcz5YCLYYGO1w9y818sXAd1Cp-n5XONiwFYafVHhQX238KKMc-kYVMdJumKH-gaiKuHPhn9Lo66VkWgOWwMutqVKu2eDCwIZuXqPNL1mIQkQiOYb5d26WIR9KaM5Qr3lFRh9M9VlIA310G1iwXgbDpYUaxki6kOkBDXH6WL53zlC-sEREPFsBOYpGvgKeJGs_PN2LCunjBgKaLq9rdXLN3NGvmbkEhKzTJXlOESnxV1k-OLMiIMO9GzbdaLUX25407GEed91YEOPRrHecM1F4wSn2UV9wGW9N7rcz4Aje3Xio99jcSE9Cfnex3SsVuPMPoQq6VBT-UoNkN_RQ8_qe8HVV5kshFZ_usW5_yoUipw7fwcJrxaco=",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae2000080849088_0%7C032d1db84ae300002310e5b1_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=SAW\u0026booking_token=Dw2fDkPi7MDEKGZmxG2uf5i8le0nZkAB10vI_1BfFu46eVTE7ovrsr4v-yWR2vQa3npcYNmQOMcWF_jFMUkGM0HfelV9HpFML9mcUhI6JQaBjz99e6v9BePHZHzi_WNMfMdTqwCgesHAjqw8P6W-Equpea4tRF_8NZO5Ww-stcuxEtSnE2w3DfdlVntqla2DoF5cszyk45YCZeOwzBO9fXrxLzk27kUmA7D6vghDG3xcVJCyEfPm010rcz5YCLYYGO1w9y818sXAd1Cp-n5XONiwFYafVHhQX238KKMc-kYVMdJumKH-gaiKuHPhn9Lo66VkWgOWwMutqVKu2eDCwIZuXqPNL1mIQkQiOYb5d26WIR9KaM5Qr3lFRh9M9VlIA310G1iwXgbDpYUaxki6kOkBDXH6WL53zlC-sEREPFsBOYpGvgKeJGs_PN2LCunjBgKaLq9rdXLN3NGvmbkEhKzTJXlOESnxV1k-OLMiIMO9GzbdaLUX25407GEed91YEOPRrHecM1F4wSn2UV9wGW9N7rcz4Aje3Xio99jcSE9Cfnex3SsVuPMPoQq6VBT-UoNkN_RQ8_qe8HVV5kshFZ_usW5_yoUipw7fwcJrxaco=",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae2000080849088_0%7C032d1db84ae300002310e5b1_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=SAW\u0026booking_token=Dw2fDkPi7MDEKGZmxG2uf5i8le0nZkAB10vI_1BfFu46eVTE7ovrsr4v-yWR2vQa3npcYNmQOMcWF_jFMUkGM0HfelV9HpFML9mcUhI6JQaBjz99e6v9BePHZHzi_WNMfMdTqwCgesHAjqw8P6W-Equpea4tRF_8NZO5Ww-stcuxEtSnE2w3DfdlVntqla2DoF5cszyk45YCZeOwzBO9fXrxLzk27kUmA7D6vghDG3xcVJCyEfPm010rcz5YCLYYGO1w9y818sXAd1Cp-n5XONiwFYafVHhQX238KKMc-kYVMdJumKH-gaiKuHPhn9Lo66VkWgOWwMutqVKu2eDCwIZuXqPNL1mIQkQiOYb5d26WIR9KaM5Qr3lFRh9M9VlIA310G1iwXgbDpYUaxki6kOkBDXH6WL53zlC-sEREPFsBOYpGvgKeJGs_PN2LCunjBgKaLq9rdXLN3NGvmbkEhKzTJXlOESnxV1k-OLMiIMO9GzbdaLUX25407GEed91YEOPRrHecM1F4wSn2UV9wGW9N7rcz4Aje3Xio99jcSE9Cfnex3SsVuPMPoQq6VBT-UoNkN_RQ8_qe8HVV5kshFZ_usW5_yoUipw7fwcJrxaco=",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "istanbul_tr",
+      "hashtags": [
+        "evening",
+        "monday",
+        "1stop",
+        "duration:9-10",
+        "departure:19-20",
+        "arrival:5-6"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4af10000d42e3a70_0|032d0a224af20000602792be_0",
+      "flyFrom": "BRQ",
+      "flyTo": "MAD",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Madrid",
+      "cityCodeTo": "MAD",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "ES",
+        "name": "Spain"
+      },
+      "dTime": 1657662900,
+      "dTimeUTC": 1657655700,
+      "aTime": 1657714500,
+      "aTimeUTC": 1657707300,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 170.66635,
+      "popularity": 8720613,
+      "distance": 1858.87,
+      "duration": {
+        "departure": 51600,
+        "return": 0,
+        "total": 51600
+      },
+      "fly_duration": "14h 20m",
+      "price": 44,
+      "conversion": {
+        "EUR": 44
+      },
+      "discount_data": {
+        "original_price": 44
+      },
+      "bags_price": {
+        "hand": 64.922,
+        "1": 109.56,
+        "2": 199.53,
+        "personal_item": 0
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81,
+        "personal_item_height": 25,
+        "personal_item_length": 40,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": 6
+      },
+      "routes": [
+        [
+          "BRQ",
+          "MAD"
+        ]
+      ],
+      "airlines": [
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4af10000d42e3a70_0",
+          "combination_id": "1f2f032d4af10000d42e3a70",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1657662900,
+          "dTimeUTC": 1657655700,
+          "aTime": 1657666800,
+          "aTimeUTC": 1657663200,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650535950,
+          "refresh_timestamp": 1650535950,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "032d0a224af20000602792be_0",
+          "combination_id": "032d0a224af20000602792be",
+          "flyFrom": "STN",
+          "flyTo": "MAD",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Madrid",
+          "cityCodeTo": "MAD",
+          "dTime": 1657702500,
+          "dTimeUTC": 1657698900,
+          "aTime": 1657714500,
+          "aTimeUTC": 1657707300,
+          "airline": "FR",
+          "flight_no": 5994,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.885,
+          "lngFrom": 0.235,
+          "latTo": 40.4936111,
+          "lngTo": -3.5666667,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "madrid_es",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650554514,
+          "refresh_timestamp": 1650554514,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "DOznY21YnRGxMyLwYc_opzSLVANjsh1KZagDEFnWxysF0WHJI16lvXnKFuA0vXxWy1XKyDSsbkQecbciwiKLC9YlKq4fN3iWlBy-8-3c0eZBctWo2nLgIErVy_iL6ETEjx0seCEcv2m3o5weQIZzdGPmg7DpCJkmHSivZBEq_8_0q0_wQlqRIGLUyooshBQ9BMCtewG1duRjoI8lfKLOauH9ZhmaltULIJO74SOQOY_XzGSdjodoDKfPmW2X4ifhum7x-TAbr7Fm_Ut6d9e3RLA3EuMtZfYCsLiAmxgrl8hEwovn2Aj5hJyEyzQ-mIIva-ZfeMtv6FycaKjm7JvC7wkhqyvLZrcOM50WEcVGxFtRok5B2n2Lj_ofU8DI5ao9MFGZr6b6YVSdgoxr4vwK21GWE7NQtn1r5n-KCn7czzl2aodQa7ScMtlWQNifj-ce52kJ0qWe-S5-I3Ok9f-Od0rMqqrB5AM30dylQs6uj1h-_z8NhIcGzGK4Srg5kY5-SMIPfPsJONSIYx7dZYMC_iH7CDLN8Z1rQJVehIiIOIepRD1FYZ0WB5z4Yz0tNZu3YnupuocoTYhdiyAJ7IvseVQ==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4af10000d42e3a70_0%7C032d0a224af20000602792be_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=MAD\u0026booking_token=DOznY21YnRGxMyLwYc_opzSLVANjsh1KZagDEFnWxysF0WHJI16lvXnKFuA0vXxWy1XKyDSsbkQecbciwiKLC9YlKq4fN3iWlBy-8-3c0eZBctWo2nLgIErVy_iL6ETEjx0seCEcv2m3o5weQIZzdGPmg7DpCJkmHSivZBEq_8_0q0_wQlqRIGLUyooshBQ9BMCtewG1duRjoI8lfKLOauH9ZhmaltULIJO74SOQOY_XzGSdjodoDKfPmW2X4ifhum7x-TAbr7Fm_Ut6d9e3RLA3EuMtZfYCsLiAmxgrl8hEwovn2Aj5hJyEyzQ-mIIva-ZfeMtv6FycaKjm7JvC7wkhqyvLZrcOM50WEcVGxFtRok5B2n2Lj_ofU8DI5ao9MFGZr6b6YVSdgoxr4vwK21GWE7NQtn1r5n-KCn7czzl2aodQa7ScMtlWQNifj-ce52kJ0qWe-S5-I3Ok9f-Od0rMqqrB5AM30dylQs6uj1h-_z8NhIcGzGK4Srg5kY5-SMIPfPsJONSIYx7dZYMC_iH7CDLN8Z1rQJVehIiIOIepRD1FYZ0WB5z4Yz0tNZu3YnupuocoTYhdiyAJ7IvseVQ==",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4af10000d42e3a70_0%7C032d0a224af20000602792be_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=MAD\u0026booking_token=DOznY21YnRGxMyLwYc_opzSLVANjsh1KZagDEFnWxysF0WHJI16lvXnKFuA0vXxWy1XKyDSsbkQecbciwiKLC9YlKq4fN3iWlBy-8-3c0eZBctWo2nLgIErVy_iL6ETEjx0seCEcv2m3o5weQIZzdGPmg7DpCJkmHSivZBEq_8_0q0_wQlqRIGLUyooshBQ9BMCtewG1duRjoI8lfKLOauH9ZhmaltULIJO74SOQOY_XzGSdjodoDKfPmW2X4ifhum7x-TAbr7Fm_Ut6d9e3RLA3EuMtZfYCsLiAmxgrl8hEwovn2Aj5hJyEyzQ-mIIva-ZfeMtv6FycaKjm7JvC7wkhqyvLZrcOM50WEcVGxFtRok5B2n2Lj_ofU8DI5ao9MFGZr6b6YVSdgoxr4vwK21GWE7NQtn1r5n-KCn7czzl2aodQa7ScMtlWQNifj-ce52kJ0qWe-S5-I3Ok9f-Od0rMqqrB5AM30dylQs6uj1h-_z8NhIcGzGK4Srg5kY5-SMIPfPsJONSIYx7dZYMC_iH7CDLN8Z1rQJVehIiIOIepRD1FYZ0WB5z4Yz0tNZu3YnupuocoTYhdiyAJ7IvseVQ==",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "madrid_es",
+      "hashtags": [
+        "evening",
+        "tuesday",
+        "1stop",
+        "duration:14-15",
+        "departure:21-22",
+        "arrival:12-13"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f048e4ae40000253b8309_0|048e22f54ae4000013dc7b6b_0",
+      "flyFrom": "BRQ",
+      "flyTo": "LGW",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "London",
+      "cityCodeTo": "LON",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "GB",
+        "name": "United Kingdom"
+      },
+      "dTime": 1656506400,
+      "dTimeUTC": 1656499200,
+      "aTime": 1656534900,
+      "aTimeUTC": 1656531300,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 259.333125,
+      "popularity": 7854407,
+      "distance": 1221.88,
+      "duration": {
+        "departure": 32100,
+        "return": 0,
+        "total": 32100
+      },
+      "fly_duration": "8h 55m",
+      "price": 176,
+      "conversion": {
+        "EUR": 176
+      },
+      "discount_data": {
+        "original_price": 176
+      },
+      "bags_price": {
+        "hand": 21.45,
+        "1": 95.25,
+        "2": 190.5
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 8,
+        "hand_width": 23,
+        "hold_dimensions_sum": 250,
+        "hold_height": 50,
+        "hold_length": 150,
+        "hold_weight": 20,
+        "hold_width": 50
+      },
+      "availability": {
+        "seats": null
+      },
+      "routes": [
+        [
+          "BRQ",
+          "LGW"
+        ]
+      ],
+      "airlines": [
+        "W6",
+        "QS"
+      ],
+      "route": [
+        {
+          "id": "1f2f048e4ae40000253b8309_0",
+          "combination_id": "1f2f048e4ae40000253b8309",
+          "flyFrom": "BRQ",
+          "flyTo": "BOJ",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "Burgas",
+          "cityCodeTo": "BOJ",
+          "dTime": 1656506400,
+          "dTimeUTC": 1656499200,
+          "aTime": 1656516600,
+          "aTimeUTC": 1656505800,
+          "airline": "QS",
+          "flight_no": 1482,
+          "operating_carrier": "QS",
+          "operating_flight_no": "1482",
+          "fare_basis": "V0BAGGQS",
+          "fare_category": "M",
+          "fare_classes": "V",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 42.5697222,
+          "lngTo": 27.5152778,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "burgas_bg",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650549717,
+          "refresh_timestamp": 0,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "048e22f54ae4000013dc7b6b_0",
+          "combination_id": "048e22f54ae4000013dc7b6b",
+          "flyFrom": "BOJ",
+          "flyTo": "LGW",
+          "cityFrom": "Burgas",
+          "cityCodeFrom": "BOJ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1656528900,
+          "dTimeUTC": 1656518100,
+          "aTime": 1656534900,
+          "aTimeUTC": 1656531300,
+          "airline": "W6",
+          "flight_no": 5755,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "ZREG",
+          "fare_category": "M",
+          "fare_classes": "Z",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 42.5697222,
+          "lngFrom": 27.5152778,
+          "latTo": 51.1480556,
+          "lngTo": -0.1902778,
+          "mapIdfrom": "burgas_bg",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650552523,
+          "refresh_timestamp": 1650552523,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "DewWVGWILQirtocajyRfZoZaJL_mbsfp1pe1YIjQiJ3ld1k9b2cK-bw_AlPvEJ9J6PE_1emu8nG_d3LQv_jQEPxr8kwAn2J3N47efG2MO-aeCYwPMySZdkWuYulAN7RSyY5YJ-s4d0S0OaDZpEl-ork55k0NGvKBGwJPhjX7CUf32UCd892Sz40zrTITnOfzy6F0yEGRZruVeQ5AnJGTjPUp96uXu5y4JbU5tlK--biaqDsnabvzisLidDb6nyVYMMh41rXxw1OiKPtbmwnodPooUnrSjsanAnDlrHw1nymNCCIxaGtFPG_tL0AhxNK73sAVsEYYKeNmjZCCjKR8-QQ05FVKwwn7jV8KaLkKZ8AwRtdr8bBi-bJh7mIMm9iab8llyhqfg_OtP7MG1zk2Ayzev9m8N2euWsMSMDt-acWJRhPI7yvr_HYGwSvqizrJpJWg8UtRF3fn_vjZr25RvXmxinzICac8yLdpzlA4ixl8LnMVGJaicy9jYe4uxt07gvtH3kRJQBjNtt2-TqmyUpZsXcM2hdKG0dJHs_SJZ3W0eXcorK5sgQ7X3D_pQZmGCN6Rr-Cz8GSfpJuPyIYQiHw==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f048e4ae40000253b8309_0%7C048e22f54ae4000013dc7b6b_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=LGW\u0026booking_token=DewWVGWILQirtocajyRfZoZaJL_mbsfp1pe1YIjQiJ3ld1k9b2cK-bw_AlPvEJ9J6PE_1emu8nG_d3LQv_jQEPxr8kwAn2J3N47efG2MO-aeCYwPMySZdkWuYulAN7RSyY5YJ-s4d0S0OaDZpEl-ork55k0NGvKBGwJPhjX7CUf32UCd892Sz40zrTITnOfzy6F0yEGRZruVeQ5AnJGTjPUp96uXu5y4JbU5tlK--biaqDsnabvzisLidDb6nyVYMMh41rXxw1OiKPtbmwnodPooUnrSjsanAnDlrHw1nymNCCIxaGtFPG_tL0AhxNK73sAVsEYYKeNmjZCCjKR8-QQ05FVKwwn7jV8KaLkKZ8AwRtdr8bBi-bJh7mIMm9iab8llyhqfg_OtP7MG1zk2Ayzev9m8N2euWsMSMDt-acWJRhPI7yvr_HYGwSvqizrJpJWg8UtRF3fn_vjZr25RvXmxinzICac8yLdpzlA4ixl8LnMVGJaicy9jYe4uxt07gvtH3kRJQBjNtt2-TqmyUpZsXcM2hdKG0dJHs_SJZ3W0eXcorK5sgQ7X3D_pQZmGCN6Rr-Cz8GSfpJuPyIYQiHw==",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f048e4ae40000253b8309_0%7C048e22f54ae4000013dc7b6b_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=LGW\u0026booking_token=DewWVGWILQirtocajyRfZoZaJL_mbsfp1pe1YIjQiJ3ld1k9b2cK-bw_AlPvEJ9J6PE_1emu8nG_d3LQv_jQEPxr8kwAn2J3N47efG2MO-aeCYwPMySZdkWuYulAN7RSyY5YJ-s4d0S0OaDZpEl-ork55k0NGvKBGwJPhjX7CUf32UCd892Sz40zrTITnOfzy6F0yEGRZruVeQ5AnJGTjPUp96uXu5y4JbU5tlK--biaqDsnabvzisLidDb6nyVYMMh41rXxw1OiKPtbmwnodPooUnrSjsanAnDlrHw1nymNCCIxaGtFPG_tL0AhxNK73sAVsEYYKeNmjZCCjKR8-QQ05FVKwwn7jV8KaLkKZ8AwRtdr8bBi-bJh7mIMm9iab8llyhqfg_OtP7MG1zk2Ayzev9m8N2euWsMSMDt-acWJRhPI7yvr_HYGwSvqizrJpJWg8UtRF3fn_vjZr25RvXmxinzICac8yLdpzlA4ixl8LnMVGJaicy9jYe4uxt07gvtH3kRJQBjNtt2-TqmyUpZsXcM2hdKG0dJHs_SJZ3W0eXcorK5sgQ7X3D_pQZmGCN6Rr-Cz8GSfpJuPyIYQiHw==",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "london_gb",
+      "hashtags": [
+        "morning",
+        "afternoon",
+        "wednesday",
+        "1stop",
+        "duration:8-9",
+        "departure:12-13",
+        "arrival:20-21"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4ae30000d27fe92b_0|18ff13a24ae4000030430375_0",
+      "flyFrom": "BRQ",
+      "flyTo": "PMI",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Palma, Majorca",
+      "cityCodeTo": "PMI",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "ES",
+        "name": "Spain"
+      },
+      "dTime": 1656453300,
+      "dTimeUTC": 1656446100,
+      "aTime": 1656499200,
+      "aTimeUTC": 1656492000,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 162.999715,
+      "popularity": 7740305,
+      "distance": 1536.8,
+      "duration": {
+        "departure": 45900,
+        "return": 0,
+        "total": 45900
+      },
+      "fly_duration": "12h 45m",
+      "price": 49,
+      "conversion": {
+        "EUR": 49
+      },
+      "discount_data": {
+        "original_price": 49
+      },
+      "bags_price": {
+        "hand": 60.44,
+        "1": 124.005,
+        "2": 247.995,
+        "personal_item": 0
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81,
+        "personal_item_height": 25,
+        "personal_item_length": 40,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": 1
+      },
+      "routes": [
+        [
+          "BRQ",
+          "PMI"
+        ]
+      ],
+      "airlines": [
+        "W9",
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4ae30000d27fe92b_0",
+          "combination_id": "1f2f032d4ae30000d27fe92b",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1656453300,
+          "dTimeUTC": 1656446100,
+          "aTime": 1656457200,
+          "aTimeUTC": 1656453600,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650553305,
+          "refresh_timestamp": 1650553305,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "following_airport_change": true,
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "18ff13a24ae4000030430375_0",
+          "combination_id": "18ff13a24ae4000030430375",
+          "flyFrom": "LTN",
+          "flyTo": "PMI",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Palma, Majorca",
+          "cityCodeTo": "PMI",
+          "dTime": 1656486600,
+          "dTimeUTC": 1656483000,
+          "aTime": 1656499200,
+          "aTimeUTC": 1656492000,
+          "airline": "W9",
+          "flight_no": 5125,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "SREG",
+          "fare_category": "M",
+          "fare_classes": "S",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.8747222,
+          "lngFrom": -0.3683333,
+          "latTo": 39.5516667,
+          "lngTo": 2.73888889,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "palma_es",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650550357,
+          "refresh_timestamp": 1650550357,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "DZ6yhe1w-Z24au6RhtQY3KYmYKjQRn7ah5vaiBm0dgX6z8hjhzEUjSOVbLNe_J4247jhxSjtEzoU5FFiDq7o0-otCLoI6t5NoodqWSrhQB5fPTOriDx_Jlru4efA4x1YUfCwnSQRL_If_NxMe2O4KN0XCANkQMNd5fpI9BKmKUWdtbru8dEZsG00PA8YGVafdKemAFJx5K3NgAivyjp3u_zYa5okd4b0gMGkzCquS_KP7hlIeG75ffaDBsUf-Y0vpe0l0oVW7lcl_TFTfJfatAA-Dsan9r5AJV30irFmEQQ0-U1V5nNUYoeizTskD5u4qLWch3Nug_KN-oAOFSbeGafilUKMXAKqhgHuf9EtuTsbQLNQIv0wf0ivgqNm3I43rWrt_H_41B6P0jsXI-oZKs2i9Wv11l9qkVKTYGkSruhdz3qzXrhmm1VUqhNiiIL6FPabmejv-8YQRVdp-RNJNTEpdy50qoC1wj_5CORTaIQBxpGj9EHQ-Y65eJ7mjm5WaTSNZToAPdkd1793K3HvHoaZJL356yenM4OdtBCxk0MA=",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae30000d27fe92b_0%7C18ff13a24ae4000030430375_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=PMI\u0026booking_token=DZ6yhe1w-Z24au6RhtQY3KYmYKjQRn7ah5vaiBm0dgX6z8hjhzEUjSOVbLNe_J4247jhxSjtEzoU5FFiDq7o0-otCLoI6t5NoodqWSrhQB5fPTOriDx_Jlru4efA4x1YUfCwnSQRL_If_NxMe2O4KN0XCANkQMNd5fpI9BKmKUWdtbru8dEZsG00PA8YGVafdKemAFJx5K3NgAivyjp3u_zYa5okd4b0gMGkzCquS_KP7hlIeG75ffaDBsUf-Y0vpe0l0oVW7lcl_TFTfJfatAA-Dsan9r5AJV30irFmEQQ0-U1V5nNUYoeizTskD5u4qLWch3Nug_KN-oAOFSbeGafilUKMXAKqhgHuf9EtuTsbQLNQIv0wf0ivgqNm3I43rWrt_H_41B6P0jsXI-oZKs2i9Wv11l9qkVKTYGkSruhdz3qzXrhmm1VUqhNiiIL6FPabmejv-8YQRVdp-RNJNTEpdy50qoC1wj_5CORTaIQBxpGj9EHQ-Y65eJ7mjm5WaTSNZToAPdkd1793K3HvHoaZJL356yenM4OdtBCxk0MA=",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae30000d27fe92b_0%7C18ff13a24ae4000030430375_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=PMI\u0026booking_token=DZ6yhe1w-Z24au6RhtQY3KYmYKjQRn7ah5vaiBm0dgX6z8hjhzEUjSOVbLNe_J4247jhxSjtEzoU5FFiDq7o0-otCLoI6t5NoodqWSrhQB5fPTOriDx_Jlru4efA4x1YUfCwnSQRL_If_NxMe2O4KN0XCANkQMNd5fpI9BKmKUWdtbru8dEZsG00PA8YGVafdKemAFJx5K3NgAivyjp3u_zYa5okd4b0gMGkzCquS_KP7hlIeG75ffaDBsUf-Y0vpe0l0oVW7lcl_TFTfJfatAA-Dsan9r5AJV30irFmEQQ0-U1V5nNUYoeizTskD5u4qLWch3Nug_KN-oAOFSbeGafilUKMXAKqhgHuf9EtuTsbQLNQIv0wf0ivgqNm3I43rWrt_H_41B6P0jsXI-oZKs2i9Wv11l9qkVKTYGkSruhdz3qzXrhmm1VUqhNiiIL6FPabmejv-8YQRVdp-RNJNTEpdy50qoC1wj_5CORTaIQBxpGj9EHQ-Y65eJ7mjm5WaTSNZToAPdkd1793K3HvHoaZJL356yenM4OdtBCxk0MA=",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": true,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "palma_es",
+      "hashtags": [
+        "evening",
+        "tuesday",
+        "1stop",
+        "duration:12-13",
+        "departure:21-22",
+        "arrival:10-11"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4af10000d42e3a70_0|18ff03584af20000b0efbaea_0",
+      "flyFrom": "BRQ",
+      "flyTo": "LIS",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Lisbon",
+      "cityCodeTo": "LIS",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "PT",
+        "name": "Portugal"
+      },
+      "dTime": 1657662900,
+      "dTimeUTC": 1657655700,
+      "aTime": 1657705500,
+      "aTimeUTC": 1657701900,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 215.66638,
+      "popularity": 7709204,
+      "distance": 2353.23,
+      "duration": {
+        "departure": 46200,
+        "return": 0,
+        "total": 46200
+      },
+      "fly_duration": "12h 50m",
+      "price": 101,
+      "conversion": {
+        "EUR": 101
+      },
+      "discount_data": {
+        "original_price": 101
+      },
+      "bags_price": {
+        "hand": 25.256,
+        "1": 89.97,
+        "2": 179.94
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 45,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 275,
+        "hold_height": 90,
+        "hold_length": 119,
+        "hold_weight": 15,
+        "hold_width": 66
+      },
+      "availability": {
+        "seats": 1
+      },
+      "routes": [
+        [
+          "BRQ",
+          "LIS"
+        ]
+      ],
+      "airlines": [
+        "U2",
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4af10000d42e3a70_0",
+          "combination_id": "1f2f032d4af10000d42e3a70",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1657662900,
+          "dTimeUTC": 1657655700,
+          "aTime": 1657666800,
+          "aTimeUTC": 1657663200,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650535950,
+          "refresh_timestamp": 1650535950,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "following_airport_change": true,
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "18ff03584af20000b0efbaea_0",
+          "combination_id": "18ff03584af20000b0efbaea",
+          "flyFrom": "LTN",
+          "flyTo": "LIS",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Lisbon",
+          "cityCodeTo": "LIS",
+          "dTime": 1657695300,
+          "dTimeUTC": 1657691700,
+          "aTime": 1657705500,
+          "aTimeUTC": 1657701900,
+          "airline": "U2",
+          "flight_no": 2365,
+          "operating_carrier": "U2",
+          "operating_flight_no": "2365",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.8747222,
+          "lngFrom": -0.3683333,
+          "latTo": 38.7741667,
+          "lngTo": -9.1341667,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "lisbon_pt",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650550342,
+          "refresh_timestamp": 1650550342,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "Dnwvl5C9_eAaIeN80HVv0ffpmGh66JHvsCjS0HYjLv3ZRazhmDTmYS-r3WjNk4dnJRK0RQXtT3-VK1Yhe9e5rIYdFw7ftpTLWwCvfuWZgyzdNALSBUoUTNGj0vLJS7ILAIOjt6Lat8QE_ld86KiVreP-OjoftVeoxvDUaFb2o5D8Pfgvt-7jd9a9Y8ix3eJvTIXRJTQUySHO91XD7Mr1PbyFfiJTMtaNqB8uaUcLXwN52Xvo169SoDA6ZVaNY0WkJhVBVKW9JDNDgM7kDE_5fOe0-ydDEWCLMyLyaghPcRtjw_WN2DO4447m5QwLqycTRamgfsreCpjE1y2rRT5SAIGDSyDCTtMSee4T5-PkFA2guO91vKEnFIGP2QYERAIEwgv0j2XfKpjKwwqtY56Vl0yedzD1yXDx7ee1mXEMfCmlRVVdJGMBQtH3X9Mk4ka_ZzFQqL1G0ERdjwnJav_ffcqpQpw2UmiY8bFimYG7OiKAnkF5efgMCM_-odDmyfFTtbNqhg_vJ_NLvl-J5ZlZzuPpV9yDPwHB2KhDaXFoiMAdn2BLfWiSA5_c8O8HSmKPV",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4af10000d42e3a70_0%7C18ff03584af20000b0efbaea_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=LIS\u0026booking_token=Dnwvl5C9_eAaIeN80HVv0ffpmGh66JHvsCjS0HYjLv3ZRazhmDTmYS-r3WjNk4dnJRK0RQXtT3-VK1Yhe9e5rIYdFw7ftpTLWwCvfuWZgyzdNALSBUoUTNGj0vLJS7ILAIOjt6Lat8QE_ld86KiVreP-OjoftVeoxvDUaFb2o5D8Pfgvt-7jd9a9Y8ix3eJvTIXRJTQUySHO91XD7Mr1PbyFfiJTMtaNqB8uaUcLXwN52Xvo169SoDA6ZVaNY0WkJhVBVKW9JDNDgM7kDE_5fOe0-ydDEWCLMyLyaghPcRtjw_WN2DO4447m5QwLqycTRamgfsreCpjE1y2rRT5SAIGDSyDCTtMSee4T5-PkFA2guO91vKEnFIGP2QYERAIEwgv0j2XfKpjKwwqtY56Vl0yedzD1yXDx7ee1mXEMfCmlRVVdJGMBQtH3X9Mk4ka_ZzFQqL1G0ERdjwnJav_ffcqpQpw2UmiY8bFimYG7OiKAnkF5efgMCM_-odDmyfFTtbNqhg_vJ_NLvl-J5ZlZzuPpV9yDPwHB2KhDaXFoiMAdn2BLfWiSA5_c8O8HSmKPV",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4af10000d42e3a70_0%7C18ff03584af20000b0efbaea_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=LIS\u0026booking_token=Dnwvl5C9_eAaIeN80HVv0ffpmGh66JHvsCjS0HYjLv3ZRazhmDTmYS-r3WjNk4dnJRK0RQXtT3-VK1Yhe9e5rIYdFw7ftpTLWwCvfuWZgyzdNALSBUoUTNGj0vLJS7ILAIOjt6Lat8QE_ld86KiVreP-OjoftVeoxvDUaFb2o5D8Pfgvt-7jd9a9Y8ix3eJvTIXRJTQUySHO91XD7Mr1PbyFfiJTMtaNqB8uaUcLXwN52Xvo169SoDA6ZVaNY0WkJhVBVKW9JDNDgM7kDE_5fOe0-ydDEWCLMyLyaghPcRtjw_WN2DO4447m5QwLqycTRamgfsreCpjE1y2rRT5SAIGDSyDCTtMSee4T5-PkFA2guO91vKEnFIGP2QYERAIEwgv0j2XfKpjKwwqtY56Vl0yedzD1yXDx7ee1mXEMfCmlRVVdJGMBQtH3X9Mk4ka_ZzFQqL1G0ERdjwnJav_ffcqpQpw2UmiY8bFimYG7OiKAnkF5efgMCM_-odDmyfFTtbNqhg_vJ_NLvl-J5ZlZzuPpV9yDPwHB2KhDaXFoiMAdn2BLfWiSA5_c8O8HSmKPV",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": true,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "lisbon_pt",
+      "hashtags": [
+        "evening",
+        "tuesday",
+        "1stop",
+        "duration:12-13",
+        "departure:21-22",
+        "arrival:9-10"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4ae30000d27fe92b_0|22f519ef4ae40000e64f6250_0|19ef07564ae4000081b5a4aa_0|19ef07564ae4000081b5a4aa_1",
+      "flyFrom": "BRQ",
+      "flyTo": "BKK",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Bangkok",
+      "cityCodeTo": "BKK",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "TH",
+        "name": "Thailand"
+      },
+      "dTime": 1656453300,
+      "dTimeUTC": 1656446100,
+      "aTime": 1656608400,
+      "aTimeUTC": 1656583200,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 576.665875,
+      "popularity": 7700188,
+      "distance": 8441.18,
+      "duration": {
+        "departure": 137100,
+        "return": 0,
+        "total": 137100
+      },
+      "fly_duration": "38h 5m",
+      "price": 260,
+      "conversion": {
+        "EUR": 260
+      },
+      "discount_data": {
+        "original_price": 260
+      },
+      "bags_price": {
+        "hand": 62.84,
+        "1": 124.175,
+        "personal_item": 0
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 7,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28,
+        "personal_item_height": 25,
+        "personal_item_length": 40,
+        "personal_item_weight": 3,
+        "personal_item_width": 15
+      },
+      "availability": {
+        "seats": 1
+      },
+      "routes": [
+        [
+          "BRQ",
+          "BKK"
+        ]
+      ],
+      "airlines": [
+        "SV",
+        "W6",
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4ae30000d27fe92b_0",
+          "combination_id": "1f2f032d4ae30000d27fe92b",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1656453300,
+          "dTimeUTC": 1656446100,
+          "aTime": 1656457200,
+          "aTimeUTC": 1656453600,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650553305,
+          "refresh_timestamp": 1650553305,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "following_airport_change": true,
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "22f519ef4ae40000e64f6250_0",
+          "combination_id": "22f519ef4ae40000e64f6250",
+          "flyFrom": "LGW",
+          "flyTo": "VIE",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Vienna",
+          "cityCodeTo": "VIE",
+          "dTime": 1656498900,
+          "dTimeUTC": 1656495300,
+          "aTime": 1656510600,
+          "aTimeUTC": 1656503400,
+          "airline": "W6",
+          "flight_no": 5703,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "ZREG",
+          "fare_category": "M",
+          "fare_classes": "Z",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.1480556,
+          "lngFrom": -0.1902778,
+          "latTo": 48.1102778,
+          "lngTo": 16.5780556,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "vienna_at",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650555397,
+          "refresh_timestamp": 1650555397,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "19ef07564ae4000081b5a4aa_0",
+          "combination_id": "19ef07564ae4000081b5a4aa",
+          "flyFrom": "VIE",
+          "flyTo": "RUH",
+          "cityFrom": "Vienna",
+          "cityCodeFrom": "VIE",
+          "cityTo": "Riyadh",
+          "cityCodeTo": "RUH",
+          "dTime": 1656525900,
+          "dTimeUTC": 1656518700,
+          "aTime": 1656549900,
+          "aTimeUTC": 1656539100,
+          "airline": "SV",
+          "flight_no": 150,
+          "operating_carrier": "SV",
+          "operating_flight_no": "150",
+          "fare_basis": "TOWAT",
+          "fare_category": "M",
+          "fare_classes": "T",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 48.1102778,
+          "lngFrom": 16.5780556,
+          "latTo": 24.9577778,
+          "lngTo": 46.6988889,
+          "mapIdfrom": "vienna_at",
+          "mapIdto": "riyadh_sa",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650557843,
+          "refresh_timestamp": 1650557843,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "19ef07564ae4000081b5a4aa_1",
+          "combination_id": "19ef07564ae4000081b5a4aa",
+          "flyFrom": "RUH",
+          "flyTo": "BKK",
+          "cityFrom": "Riyadh",
+          "cityCodeFrom": "RUH",
+          "cityTo": "Bangkok",
+          "cityCodeTo": "BKK",
+          "dTime": 1656567000,
+          "dTimeUTC": 1656556200,
+          "aTime": 1656608400,
+          "aTimeUTC": 1656583200,
+          "airline": "SV",
+          "flight_no": 846,
+          "operating_carrier": "SV",
+          "operating_flight_no": "846",
+          "fare_basis": "TOWAT",
+          "fare_category": "M",
+          "fare_classes": "T",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 24.9577778,
+          "lngFrom": 46.6988889,
+          "latTo": 13.6858333,
+          "lngTo": 100.748889,
+          "mapIdfrom": "riyadh_sa",
+          "mapIdto": "bangkok_th",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650557843,
+          "refresh_timestamp": 1650557843,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "DiV6NIDJ8P5qPdcFbNn_9BoQkX5sUXV4dDd5qs3o2ReApfG2tR9y2VA81pz9QbgCYJLfcysyeJJig0jExaOGSLA-LjcPgVw-edOCDvnfG_rM59p_tHiG-OMwlwTtyuVKEU02B4sH-YGsuvRPNIGePhlkNtTBLGqBA1b2VahkIZJ72btZujzRi6_rG_0u-uXa_SFcK_GRgq1HeKjyooar8pKwHKiAbif5HwgCyissY9dsMb_NZ-1eu7UyVs28fsG0mjb7droAqBG-W_tx4qv0I9wyQYvfXq2EzBAwa9stFNj7q-3npdBbYIg66VtkE6KwMneFmpFs8I6HEmBn7f-VEXmoPdgwigrfwyGG_7n4UiBYGBkk3TEiBw8REXTQfYooN-jpmDGhs2PXXBIzkAdZTWtwQvrpDBqnrMzyQ05tIKRTyHcapgWfyEACqmyGGz98JxyTetrlaQdpfcl00aXFgao7hmiv3VoMP75i8SNuvg9l6ViW75Z0H8k_ieGNJDVNIz1nmPrDWijLBaUvVxeegOvj1gf1kE9ss_p_5njD-_DMXyHBPf00_EZxQ--XZ7huE7rbP2-_josugvaO0zNayZfkArJrx5yoEr6liyGYW1rRyTmfCF0yrS84kgsk8lJBL",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae30000d27fe92b_0%7C22f519ef4ae40000e64f6250_0%7C19ef07564ae4000081b5a4aa_0%7C19ef07564ae4000081b5a4aa_1\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=BKK\u0026booking_token=DiV6NIDJ8P5qPdcFbNn_9BoQkX5sUXV4dDd5qs3o2ReApfG2tR9y2VA81pz9QbgCYJLfcysyeJJig0jExaOGSLA-LjcPgVw-edOCDvnfG_rM59p_tHiG-OMwlwTtyuVKEU02B4sH-YGsuvRPNIGePhlkNtTBLGqBA1b2VahkIZJ72btZujzRi6_rG_0u-uXa_SFcK_GRgq1HeKjyooar8pKwHKiAbif5HwgCyissY9dsMb_NZ-1eu7UyVs28fsG0mjb7droAqBG-W_tx4qv0I9wyQYvfXq2EzBAwa9stFNj7q-3npdBbYIg66VtkE6KwMneFmpFs8I6HEmBn7f-VEXmoPdgwigrfwyGG_7n4UiBYGBkk3TEiBw8REXTQfYooN-jpmDGhs2PXXBIzkAdZTWtwQvrpDBqnrMzyQ05tIKRTyHcapgWfyEACqmyGGz98JxyTetrlaQdpfcl00aXFgao7hmiv3VoMP75i8SNuvg9l6ViW75Z0H8k_ieGNJDVNIz1nmPrDWijLBaUvVxeegOvj1gf1kE9ss_p_5njD-_DMXyHBPf00_EZxQ--XZ7huE7rbP2-_josugvaO0zNayZfkArJrx5yoEr6liyGYW1rRyTmfCF0yrS84kgsk8lJBL",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae30000d27fe92b_0%7C22f519ef4ae40000e64f6250_0%7C19ef07564ae4000081b5a4aa_0%7C19ef07564ae4000081b5a4aa_1\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=BKK\u0026booking_token=DiV6NIDJ8P5qPdcFbNn_9BoQkX5sUXV4dDd5qs3o2ReApfG2tR9y2VA81pz9QbgCYJLfcysyeJJig0jExaOGSLA-LjcPgVw-edOCDvnfG_rM59p_tHiG-OMwlwTtyuVKEU02B4sH-YGsuvRPNIGePhlkNtTBLGqBA1b2VahkIZJ72btZujzRi6_rG_0u-uXa_SFcK_GRgq1HeKjyooar8pKwHKiAbif5HwgCyissY9dsMb_NZ-1eu7UyVs28fsG0mjb7droAqBG-W_tx4qv0I9wyQYvfXq2EzBAwa9stFNj7q-3npdBbYIg66VtkE6KwMneFmpFs8I6HEmBn7f-VEXmoPdgwigrfwyGG_7n4UiBYGBkk3TEiBw8REXTQfYooN-jpmDGhs2PXXBIzkAdZTWtwQvrpDBqnrMzyQ05tIKRTyHcapgWfyEACqmyGGz98JxyTetrlaQdpfcl00aXFgao7hmiv3VoMP75i8SNuvg9l6ViW75Z0H8k_ieGNJDVNIz1nmPrDWijLBaUvVxeegOvj1gf1kE9ss_p_5njD-_DMXyHBPf00_EZxQ--XZ7huE7rbP2-_josugvaO0zNayZfkArJrx5yoEr6liyGYW1rRyTmfCF0yrS84kgsk8lJBL",
+      "facilitated_booking_available": false,
+      "pnr_count": 3,
+      "has_airport_change": true,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "bangkok_th",
+      "hashtags": [
+        "evening",
+        "tuesday",
+        "3stops",
+        "duration:38-39",
+        "departure:21-22",
+        "arrival:17-18"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4aec0000e213bbc8_0|032d0b774aed00005d5bcc77_0|0b7721dd4aed00001e243e97_0",
+      "flyFrom": "BRQ",
+      "flyTo": "DXB",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Dubai",
+      "cityCodeTo": "DXB",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "AE",
+        "name": "United Arab Emirates"
+      },
+      "dTime": 1657215000,
+      "dTimeUTC": 1657207800,
+      "aTime": 1657313100,
+      "aTimeUTC": 1657298700,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 367.999465,
+      "popularity": 6545570,
+      "distance": 4265.57,
+      "duration": {
+        "departure": 90900,
+        "return": 0,
+        "total": 90900
+      },
+      "fly_duration": "25h 15m",
+      "price": 154,
+      "conversion": {
+        "EUR": 154
+      },
+      "discount_data": {
+        "original_price": 154
+      },
+      "bags_price": {
+        "hand": 102.62,
+        "1": 158.67,
+        "2": 317.34,
+        "personal_item": 0
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 319,
+        "hold_height": 119,
+        "hold_length": 119,
+        "hold_weight": 20,
+        "hold_width": 81,
+        "personal_item_height": 25,
+        "personal_item_length": 40,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": 2
+      },
+      "routes": [
+        [
+          "BRQ",
+          "DXB"
+        ]
+      ],
+      "airlines": [
+        "W6",
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4aec0000e213bbc8_0",
+          "combination_id": "1f2f032d4aec0000e213bbc8",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1657215000,
+          "dTimeUTC": 1657207800,
+          "aTime": 1657218900,
+          "aTimeUTC": 1657215300,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650538129,
+          "refresh_timestamp": 1650538129,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "032d0b774aed00005d5bcc77_0",
+          "combination_id": "032d0b774aed00005d5bcc77",
+          "flyFrom": "STN",
+          "flyTo": "BUD",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Budapest",
+          "cityCodeTo": "BUD",
+          "dTime": 1657261500,
+          "dTimeUTC": 1657257900,
+          "aTime": 1657273500,
+          "aTimeUTC": 1657266300,
+          "airline": "FR",
+          "flight_no": 3717,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.885,
+          "lngFrom": 0.235,
+          "latTo": 47.4369444,
+          "lngTo": 19.2555556,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "budapest_hu",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650553494,
+          "refresh_timestamp": 1650553494,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "0b7721dd4aed00001e243e97_0",
+          "combination_id": "0b7721dd4aed00001e243e97",
+          "flyFrom": "BUD",
+          "flyTo": "DXB",
+          "cityFrom": "Budapest",
+          "cityCodeFrom": "BUD",
+          "cityTo": "Dubai",
+          "cityCodeTo": "DXB",
+          "dTime": 1657285800,
+          "dTimeUTC": 1657278600,
+          "aTime": 1657313100,
+          "aTimeUTC": 1657298700,
+          "airline": "W6",
+          "flight_no": 2357,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "BOREG",
+          "fare_category": "M",
+          "fare_classes": "B",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 47.4369444,
+          "lngFrom": 19.2555556,
+          "latTo": 25.2527778,
+          "lngTo": 55.3644444,
+          "mapIdfrom": "budapest_hu",
+          "mapIdto": "dubai_ae",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650544639,
+          "refresh_timestamp": 1650544639,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "DGQL42UmjC6DujK-NhJBtKxziZXK_JrKvn5lx9EUONboSuQXgx4_ZtRavsLYDBaq2Huacl_m31srExRq4tnRoq7lceoIqeZWZNTqR7lGvzqFokE-8I5tkRff1VmYy7En4hTVNGzLM2HWsExOu4z78JbPUf88eFlKJa0gHN0AvIGKK72um0BsSXvONyu9J3P6w2o3Dk0uTGh_Nuqj15Ze3p3fMGpu6VQPe7BkQbhwfYXzLLDrEf5W34efjmEbAxlnBbWakyUvApYApBT3HpdIi3Glgsh0pUy58tJx8DSmgDL2_xW3Bv4gQEQGgREJj8NgIKt4nHMxwplppIx8LsTaI68i0j2rOR6ltKyaoNKP45KOd8yGSMxwU3Rd_6ApdJkLPabLNbbp0_J_YWwW7_VOkwMp9HsJpqqQRLRDlKjpNToO0v7EGPQ6XdRLA5ADkvDwSy6WHqtazIzTrZcGO8gKPSZe4gkrNdQ1DEpSmkLVksEZGn6Am05AkWGIlobXroaEwke2vwwl_6peO1b4YDBFdmtRQ5ApVelqSr-ut3W29DdqkqqXWVSCgxVP1gtYfiEMhr0lZN614kXbh3e2_Ek-2pA==",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4aec0000e213bbc8_0%7C032d0b774aed00005d5bcc77_0%7C0b7721dd4aed00001e243e97_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=DXB\u0026booking_token=DGQL42UmjC6DujK-NhJBtKxziZXK_JrKvn5lx9EUONboSuQXgx4_ZtRavsLYDBaq2Huacl_m31srExRq4tnRoq7lceoIqeZWZNTqR7lGvzqFokE-8I5tkRff1VmYy7En4hTVNGzLM2HWsExOu4z78JbPUf88eFlKJa0gHN0AvIGKK72um0BsSXvONyu9J3P6w2o3Dk0uTGh_Nuqj15Ze3p3fMGpu6VQPe7BkQbhwfYXzLLDrEf5W34efjmEbAxlnBbWakyUvApYApBT3HpdIi3Glgsh0pUy58tJx8DSmgDL2_xW3Bv4gQEQGgREJj8NgIKt4nHMxwplppIx8LsTaI68i0j2rOR6ltKyaoNKP45KOd8yGSMxwU3Rd_6ApdJkLPabLNbbp0_J_YWwW7_VOkwMp9HsJpqqQRLRDlKjpNToO0v7EGPQ6XdRLA5ADkvDwSy6WHqtazIzTrZcGO8gKPSZe4gkrNdQ1DEpSmkLVksEZGn6Am05AkWGIlobXroaEwke2vwwl_6peO1b4YDBFdmtRQ5ApVelqSr-ut3W29DdqkqqXWVSCgxVP1gtYfiEMhr0lZN614kXbh3e2_Ek-2pA==",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4aec0000e213bbc8_0%7C032d0b774aed00005d5bcc77_0%7C0b7721dd4aed00001e243e97_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=DXB\u0026booking_token=DGQL42UmjC6DujK-NhJBtKxziZXK_JrKvn5lx9EUONboSuQXgx4_ZtRavsLYDBaq2Huacl_m31srExRq4tnRoq7lceoIqeZWZNTqR7lGvzqFokE-8I5tkRff1VmYy7En4hTVNGzLM2HWsExOu4z78JbPUf88eFlKJa0gHN0AvIGKK72um0BsSXvONyu9J3P6w2o3Dk0uTGh_Nuqj15Ze3p3fMGpu6VQPe7BkQbhwfYXzLLDrEf5W34efjmEbAxlnBbWakyUvApYApBT3HpdIi3Glgsh0pUy58tJx8DSmgDL2_xW3Bv4gQEQGgREJj8NgIKt4nHMxwplppIx8LsTaI68i0j2rOR6ltKyaoNKP45KOd8yGSMxwU3Rd_6ApdJkLPabLNbbp0_J_YWwW7_VOkwMp9HsJpqqQRLRDlKjpNToO0v7EGPQ6XdRLA5ADkvDwSy6WHqtazIzTrZcGO8gKPSZe4gkrNdQ1DEpSmkLVksEZGn6Am05AkWGIlobXroaEwke2vwwl_6peO1b4YDBFdmtRQ5ApVelqSr-ut3W29DdqkqqXWVSCgxVP1gtYfiEMhr0lZN614kXbh3e2_Ek-2pA==",
+      "facilitated_booking_available": false,
+      "pnr_count": 3,
+      "has_airport_change": false,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "dubai_ae",
+      "hashtags": [
+        "afternoon",
+        "evening",
+        "thursday",
+        "2stops",
+        "duration:25-26",
+        "departure:17-18",
+        "arrival:20-21"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4ae30000d27fe92b_0|18ff10e84ae40000f2cd5a04_0",
+      "flyFrom": "BRQ",
+      "flyTo": "AMS",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Amsterdam",
+      "cityCodeTo": "AMS",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "NL",
+        "name": "Netherlands"
+      },
+      "dTime": 1656453300,
+      "dTimeUTC": 1656446100,
+      "aTime": 1656490500,
+      "aTimeUTC": 1656483300,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 166.66643,
+      "popularity": 5954651,
+      "distance": 909.73,
+      "duration": {
+        "departure": 37200,
+        "return": 0,
+        "total": 37200
+      },
+      "fly_duration": "10h 20m",
+      "price": 72,
+      "conversion": {
+        "EUR": 72
+      },
+      "discount_data": {
+        "original_price": 72
+      },
+      "bags_price": {
+        "hand": 24.178,
+        "1": 89.97,
+        "2": 179.94
+      },
+      "baglimit": {
+        "hand_height": 36,
+        "hand_length": 45,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 275,
+        "hold_height": 90,
+        "hold_length": 119,
+        "hold_weight": 15,
+        "hold_width": 66
+      },
+      "availability": {
+        "seats": 1
+      },
+      "routes": [
+        [
+          "BRQ",
+          "AMS"
+        ]
+      ],
+      "airlines": [
+        "U2",
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4ae30000d27fe92b_0",
+          "combination_id": "1f2f032d4ae30000d27fe92b",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1656453300,
+          "dTimeUTC": 1656446100,
+          "aTime": 1656457200,
+          "aTimeUTC": 1656453600,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650553305,
+          "refresh_timestamp": 1650553305,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "following_airport_change": true,
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "18ff10e84ae40000f2cd5a04_0",
+          "combination_id": "18ff10e84ae40000f2cd5a04",
+          "flyFrom": "LTN",
+          "flyTo": "AMS",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Amsterdam",
+          "cityCodeTo": "AMS",
+          "dTime": 1656482400,
+          "dTimeUTC": 1656478800,
+          "aTime": 1656490500,
+          "aTimeUTC": 1656483300,
+          "airline": "U2",
+          "flight_no": 2153,
+          "operating_carrier": "U2",
+          "operating_flight_no": "2153",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.8747222,
+          "lngFrom": -0.3683333,
+          "latTo": 52.3080556,
+          "lngTo": 4.76416667,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "amsterdam_nl",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650554761,
+          "refresh_timestamp": 1650554761,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "Ducf5SOTug4dCr-HGPei3-7qA4Wz2SB5mDv55UlW5ZOC4WchXisCG8GCHWWlsByJGpnc-2EiL58WSF_MfGB7NBfjPqn74A-yKPqA71IDJrLZ9zmqBgbEvln2_BY6Jjjc2rviKMhyy4_9ZNaaAwFqDQAZvZxdX1CZ-099pV1T43muGRGuy3nQznDd8hx2hFrlT38EmLuesJU8EZxbLf84soZTaJYe4e1Urf4JVLchSMr_btd_flE-7k2ieZkEGDJ-JdFDkbE4FFbZYWEFZkQ0pzC9tZ-zBPpsFSNjgGn85148NbiPTnMTJ4qYfhVjppMg-eX3hAkTvbO7SnBm_bZT1ZViwTw4MnIfV5wDA7ofzfW6yy3jqKHpV8nDl8oCaOU0XdSbGOxDZ20YtTYXj9WhlVkCVob7-rWDXipSNQpmBR_NZVG3DJ0G1aWepFW4shoypvaTq1RBfKoKTKd6nlGNGEeQq58WPN8l2rUbx07Z3FYX8evebF7Z8PplrxdRf4nqly_rR-PD96lFcUPRphoW7JYDnMeRB-63v8kr69bqnndU=",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae30000d27fe92b_0%7C18ff10e84ae40000f2cd5a04_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=AMS\u0026booking_token=Ducf5SOTug4dCr-HGPei3-7qA4Wz2SB5mDv55UlW5ZOC4WchXisCG8GCHWWlsByJGpnc-2EiL58WSF_MfGB7NBfjPqn74A-yKPqA71IDJrLZ9zmqBgbEvln2_BY6Jjjc2rviKMhyy4_9ZNaaAwFqDQAZvZxdX1CZ-099pV1T43muGRGuy3nQznDd8hx2hFrlT38EmLuesJU8EZxbLf84soZTaJYe4e1Urf4JVLchSMr_btd_flE-7k2ieZkEGDJ-JdFDkbE4FFbZYWEFZkQ0pzC9tZ-zBPpsFSNjgGn85148NbiPTnMTJ4qYfhVjppMg-eX3hAkTvbO7SnBm_bZT1ZViwTw4MnIfV5wDA7ofzfW6yy3jqKHpV8nDl8oCaOU0XdSbGOxDZ20YtTYXj9WhlVkCVob7-rWDXipSNQpmBR_NZVG3DJ0G1aWepFW4shoypvaTq1RBfKoKTKd6nlGNGEeQq58WPN8l2rUbx07Z3FYX8evebF7Z8PplrxdRf4nqly_rR-PD96lFcUPRphoW7JYDnMeRB-63v8kr69bqnndU=",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4ae30000d27fe92b_0%7C18ff10e84ae40000f2cd5a04_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=AMS\u0026booking_token=Ducf5SOTug4dCr-HGPei3-7qA4Wz2SB5mDv55UlW5ZOC4WchXisCG8GCHWWlsByJGpnc-2EiL58WSF_MfGB7NBfjPqn74A-yKPqA71IDJrLZ9zmqBgbEvln2_BY6Jjjc2rviKMhyy4_9ZNaaAwFqDQAZvZxdX1CZ-099pV1T43muGRGuy3nQznDd8hx2hFrlT38EmLuesJU8EZxbLf84soZTaJYe4e1Urf4JVLchSMr_btd_flE-7k2ieZkEGDJ-JdFDkbE4FFbZYWEFZkQ0pzC9tZ-zBPpsFSNjgGn85148NbiPTnMTJ4qYfhVjppMg-eX3hAkTvbO7SnBm_bZT1ZViwTw4MnIfV5wDA7ofzfW6yy3jqKHpV8nDl8oCaOU0XdSbGOxDZ20YtTYXj9WhlVkCVob7-rWDXipSNQpmBR_NZVG3DJ0G1aWepFW4shoypvaTq1RBfKoKTKd6nlGNGEeQq58WPN8l2rUbx07Z3FYX8evebF7Z8PplrxdRf4nqly_rR-PD96lFcUPRphoW7JYDnMeRB-63v8kr69bqnndU=",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": true,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "amsterdam_nl",
+      "hashtags": [
+        "evening",
+        "tuesday",
+        "1stop",
+        "duration:10-11",
+        "departure:21-22",
+        "arrival:8-9"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    },
+    {
+      "id": "1f2f032d4af50000fe36d6ae_0|22f50a7c4af6000047cb6209_0",
+      "flyFrom": "BRQ",
+      "flyTo": "ORY",
+      "cityFrom": "Brno",
+      "cityCodeFrom": "BRQ",
+      "cityTo": "Paris",
+      "cityCodeTo": "PAR",
+      "countryFrom": {
+        "code": "CZ",
+        "name": "Czechia"
+      },
+      "countryTo": {
+        "code": "FR",
+        "name": "France"
+      },
+      "dTime": 1658008500,
+      "dTimeUTC": 1658001300,
+      "aTime": 1658052600,
+      "aTimeUTC": 1658045400,
+      "type_flights": [
+        "deprecated"
+      ],
+      "nightsInDest": null,
+      "quality": 164.999725,
+      "popularity": 5552577,
+      "distance": 1046.27,
+      "duration": {
+        "departure": 44100,
+        "return": 0,
+        "total": 44100
+      },
+      "fly_duration": "12h 15m",
+      "price": 55,
+      "conversion": {
+        "EUR": 55
+      },
+      "discount_data": {
+        "original_price": 55
+      },
+      "bags_price": {
+        "hand": 49.434,
+        "1": 65.97,
+        "personal_item": 0
+      },
+      "baglimit": {
+        "hand_height": 40,
+        "hand_length": 55,
+        "hand_weight": 10,
+        "hand_width": 20,
+        "hold_dimensions_sum": 158,
+        "hold_height": 52,
+        "hold_length": 78,
+        "hold_weight": 20,
+        "hold_width": 28,
+        "personal_item_height": 25,
+        "personal_item_length": 40,
+        "personal_item_weight": 10,
+        "personal_item_width": 20
+      },
+      "availability": {
+        "seats": 2
+      },
+      "routes": [
+        [
+          "BRQ",
+          "ORY"
+        ]
+      ],
+      "airlines": [
+        "VY",
+        "FR"
+      ],
+      "route": [
+        {
+          "id": "1f2f032d4af50000fe36d6ae_0",
+          "combination_id": "1f2f032d4af50000fe36d6ae",
+          "flyFrom": "BRQ",
+          "flyTo": "STN",
+          "cityFrom": "Brno",
+          "cityCodeFrom": "BRQ",
+          "cityTo": "London",
+          "cityCodeTo": "LON",
+          "dTime": 1658008500,
+          "dTimeUTC": 1658001300,
+          "aTime": 1658012400,
+          "aTimeUTC": 1658008800,
+          "airline": "FR",
+          "flight_no": 8404,
+          "operating_carrier": "",
+          "operating_flight_no": "",
+          "fare_basis": "",
+          "fare_category": "M",
+          "fare_classes": "",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 49.1513889,
+          "lngFrom": 16.6944444,
+          "latTo": 51.885,
+          "lngTo": 0.235,
+          "mapIdfrom": "brno_cz",
+          "mapIdto": "london_gb",
+          "bags_recheck_required": false,
+          "vi_connection": false,
+          "guarantee": false,
+          "last_seen": 1650540932,
+          "refresh_timestamp": 1650540932,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "following_airport_change": true,
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        },
+        {
+          "id": "22f50a7c4af6000047cb6209_0",
+          "combination_id": "22f50a7c4af6000047cb6209",
+          "flyFrom": "LGW",
+          "flyTo": "ORY",
+          "cityFrom": "London",
+          "cityCodeFrom": "LON",
+          "cityTo": "Paris",
+          "cityCodeTo": "PAR",
+          "dTime": 1658044200,
+          "dTimeUTC": 1658040600,
+          "aTime": 1658052600,
+          "aTimeUTC": 1658045400,
+          "airline": "VY",
+          "flight_no": 6943,
+          "operating_carrier": "VY",
+          "operating_flight_no": "6943",
+          "fare_basis": "DFB",
+          "fare_category": "M",
+          "fare_classes": "D",
+          "fare_family": "",
+          "return": 0,
+          "latFrom": 51.1480556,
+          "lngFrom": -0.1902778,
+          "latTo": 48.7233333,
+          "lngTo": 2.37944444,
+          "mapIdfrom": "london_gb",
+          "mapIdto": "paris_fr",
+          "bags_recheck_required": true,
+          "vi_connection": true,
+          "guarantee": true,
+          "last_seen": 1650553374,
+          "refresh_timestamp": 1650553374,
+          "equipment": null,
+          "vehicle_type": "aircraft",
+          "original_return": 0,
+          "source": "deprecated",
+          "found_on": "deprecated",
+          "price": 1
+        }
+      ],
+      "booking_token": "DWnL_nP-h4EYrEEoe8ODVevF2jArdZo-3DhUk_FiYNXbmy6NIt3BTncmlEen62Ve1fs-JPZuKj4xg-lpuUXrfYx-rpoVDXl2eib3Addwz1jB9tLaDSUGMEaLt7dyFlSkOoip017zE_CvyfX0DWCHpNZQhtikbppubcm-GO4wm4PbL5QG0Ayk2l3DpfMMhsxceqi-8WEBqlj1g3mV1vLqvDEbtqTknR4nkGKDQa1ofBYqWq3dpnXBNni6RBBdJJYXLNxoJA8UXwWdq-gIAacDETZ0Mj8oOj1WjpXcrSUsw0woAKY5Bjv25Wqt4I-ASxgv_ibeNhAzzmTRuCsz0EsPeIHXvas1MLm-Bq810JwCMG7tvrnFiEXacmRFPBGr_ifMjc-gGQOiCdwGFXFiybyoq_QEE95plhjXKK-4OrIEe7uBclbJIAxHHlUMVw__seIGPVV1_cKkmAuK-9Mdh2tBJHeB29lH4-oL3ZMfwHzBH59VVCFkfkyncj8i9qIpMI_WjFgdusLCkVTg8HkhWuBqSQ5Rvzkqz9na6TB_xcNCXFPLUzXjD02-uAsRsdP3hUzVz",
+      "deep_link": "https://www.kiwi.com/deep?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4af50000fe36d6ae_0%7C22f50a7c4af6000047cb6209_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=ORY\u0026booking_token=DWnL_nP-h4EYrEEoe8ODVevF2jArdZo-3DhUk_FiYNXbmy6NIt3BTncmlEen62Ve1fs-JPZuKj4xg-lpuUXrfYx-rpoVDXl2eib3Addwz1jB9tLaDSUGMEaLt7dyFlSkOoip017zE_CvyfX0DWCHpNZQhtikbppubcm-GO4wm4PbL5QG0Ayk2l3DpfMMhsxceqi-8WEBqlj1g3mV1vLqvDEbtqTknR4nkGKDQa1ofBYqWq3dpnXBNni6RBBdJJYXLNxoJA8UXwWdq-gIAacDETZ0Mj8oOj1WjpXcrSUsw0woAKY5Bjv25Wqt4I-ASxgv_ibeNhAzzmTRuCsz0EsPeIHXvas1MLm-Bq810JwCMG7tvrnFiEXacmRFPBGr_ifMjc-gGQOiCdwGFXFiybyoq_QEE95plhjXKK-4OrIEe7uBclbJIAxHHlUMVw__seIGPVV1_cKkmAuK-9Mdh2tBJHeB29lH4-oL3ZMfwHzBH59VVCFkfkyncj8i9qIpMI_WjFgdusLCkVTg8HkhWuBqSQ5Rvzkqz9na6TB_xcNCXFPLUzXjD02-uAsRsdP3hUzVz",
+      "tracking_pixel": "https://www.kiwi.com/pixel?affilid=skypicker\u0026currency=EUR\u0026flightsId=1f2f032d4af50000fe36d6ae_0%7C22f50a7c4af6000047cb6209_0\u0026from=BRQ\u0026lang=en\u0026passengers=1\u0026to=ORY\u0026booking_token=DWnL_nP-h4EYrEEoe8ODVevF2jArdZo-3DhUk_FiYNXbmy6NIt3BTncmlEen62Ve1fs-JPZuKj4xg-lpuUXrfYx-rpoVDXl2eib3Addwz1jB9tLaDSUGMEaLt7dyFlSkOoip017zE_CvyfX0DWCHpNZQhtikbppubcm-GO4wm4PbL5QG0Ayk2l3DpfMMhsxceqi-8WEBqlj1g3mV1vLqvDEbtqTknR4nkGKDQa1ofBYqWq3dpnXBNni6RBBdJJYXLNxoJA8UXwWdq-gIAacDETZ0Mj8oOj1WjpXcrSUsw0woAKY5Bjv25Wqt4I-ASxgv_ibeNhAzzmTRuCsz0EsPeIHXvas1MLm-Bq810JwCMG7tvrnFiEXacmRFPBGr_ifMjc-gGQOiCdwGFXFiybyoq_QEE95plhjXKK-4OrIEe7uBclbJIAxHHlUMVw__seIGPVV1_cKkmAuK-9Mdh2tBJHeB29lH4-oL3ZMfwHzBH59VVCFkfkyncj8i9qIpMI_WjFgdusLCkVTg8HkhWuBqSQ5Rvzkqz9na6TB_xcNCXFPLUzXjD02-uAsRsdP3hUzVz",
+      "facilitated_booking_available": false,
+      "pnr_count": 2,
+      "has_airport_change": true,
+      "technical_stops": 0,
+      "throw_away_ticketing": false,
+      "hidden_city_ticketing": false,
+      "virtual_interlining": true,
+      "mapIdfrom": "brno_cz",
+      "mapIdto": "paris_fr",
+      "hashtags": [
+        "evening",
+        "saturday",
+        "1stop",
+        "duration:12-13",
+        "departure:21-22",
+        "arrival:10-11"
+      ],
+      "found_on": [
+        "deprecated"
+      ],
+      "transfers": [],
+      "p1": 1,
+      "p2": 1,
+      "p3": 1
+    }
+  ],
+  "_results": 81,
+  "best_results": [],
+  "search_params": {
+    "flyFrom_type": "radius",
+    "to_type": "city",
+    "seats": {
+      "passengers": 1,
+      "adults": 1,
+      "children": 0,
+      "infants": 0
+    }
+  },
+  "hashtags": [
+    {
+      "count": 79,
+      "name": "evening"
+    },
+    {
+      "count": 46,
+      "name": "tuesday"
+    },
+    {
+      "count": 52,
+      "name": "1stop"
+    },
+    {
+      "count": 15,
+      "name": "duration:12-13"
+    },
+    {
+      "count": 50,
+      "name": "departure:21-22"
+    },
+    {
+      "count": 16,
+      "name": "arrival:9-10"
+    },
+    {
+      "count": 2,
+      "name": "duration:15-16"
+    },
+    {
+      "count": 3,
+      "name": "arrival:13-14"
+    },
+    {
+      "count": 4,
+      "name": "duration:14-15"
+    },
+    {
+      "count": 9,
+      "name": "arrival:11-12"
+    },
+    {
+      "count": 19,
+      "name": "monday"
+    },
+    {
+      "count": 23,
+      "name": "2stops"
+    },
+    {
+      "count": 1,
+      "name": "duration:31-32"
+    },
+    {
+      "count": 17,
+      "name": "departure:19-20"
+    },
+    {
+      "count": 11,
+      "name": "duration:11-12"
+    },
+    {
+      "count": 11,
+      "name": "arrival:8-9"
+    },
+    {
+      "count": 15,
+      "name": "duration:13-14"
+    },
+    {
+      "count": 8,
+      "name": "morning"
+    },
+    {
+      "count": 8,
+      "name": "wednesday"
+    },
+    {
+      "count": 3,
+      "name": "direct"
+    },
+    {
+      "count": 3,
+      "name": "duration:2-3"
+    },
+    {
+      "count": 3,
+      "name": "departure:4-5"
+    },
+    {
+      "count": 4,
+      "name": "duration:16-17"
+    },
+    {
+      "count": 15,
+      "name": "arrival:10-11"
+    },
+    {
+      "count": 3,
+      "name": "sunday"
+    },
+    {
+      "count": 1,
+      "name": "departure:5-6"
+    },
+    {
+      "count": 4,
+      "name": "saturday"
+    },
+    {
+      "count": 3,
+      "name": "duration:22-23"
+    },
+    {
+      "count": 2,
+      "name": "arrival:18-19"
+    },
+    {
+      "count": 12,
+      "name": "afternoon"
+    },
+    {
+      "count": 1,
+      "name": "duration:8-9"
+    },
+    {
+      "count": 2,
+      "name": "departure:12-13"
+    },
+    {
+      "count": 3,
+      "name": "arrival:20-21"
+    },
+    {
+      "count": 3,
+      "name": "duration:10-11"
+    },
+    {
+      "count": 4,
+      "name": "thursday"
+    },
+    {
+      "count": 2,
+      "name": "departure:0-1"
+    },
+    {
+      "count": 3,
+      "name": "arrival:15-16"
+    },
+    {
+      "count": 1,
+      "name": "duration:24-25"
+    },
+    {
+      "count": 2,
+      "name": "duration:7-8"
+    },
+    {
+      "count": 9,
+      "name": "departure:17-18"
+    },
+    {
+      "count": 1,
+      "name": "arrival:1-2"
+    },
+    {
+      "count": 3,
+      "name": "arrival:14-15"
+    },
+    {
+      "count": 7,
+      "name": "3stops"
+    },
+    {
+      "count": 1,
+      "name": "duration:35-36"
+    },
+    {
+      "count": 1,
+      "name": "duration:18-19"
+    },
+    {
+      "count": 2,
+      "name": "duration:9-10"
+    },
+    {
+      "count": 1,
+      "name": "duration:4-5"
+    },
+    {
+      "count": 6,
+      "name": "arrival:23-24"
+    },
+    {
+      "count": 2,
+      "name": "duration:41-42"
+    },
+    {
+      "count": 4,
+      "name": "arrival:12-13"
+    },
+    {
+      "count": 3,
+      "name": "duration:5-6"
+    },
+    {
+      "count": 1,
+      "name": "arrival:21-22"
+    },
+    {
+      "count": 1,
+      "name": "duration:30-31"
+    },
+    {
+      "count": 2,
+      "name": "arrival:22-23"
+    },
+    {
+      "count": 2,
+      "name": "duration:33-34"
+    },
+    {
+      "count": 1,
+      "name": "duration:25-26"
+    },
+    {
+      "count": 1,
+      "name": "duration:28-29"
+    },
+    {
+      "count": 2,
+      "name": "arrival:17-18"
+    },
+    {
+      "count": 1,
+      "name": "friday"
+    },
+    {
+      "count": 3,
+      "name": "duration:6-7"
+    },
+    {
+      "count": 1,
+      "name": "duration:32-33"
+    },
+    {
+      "count": 1,
+      "name": "arrival:5-6"
+    },
+    {
+      "count": 1,
+      "name": "arrival:6-7"
+    },
+    {
+      "count": 1,
+      "name": "duration:38-39"
+    },
+    {
+      "count": 1,
+      "name": "departure:18-19"
+    },
+    {
+      "count": 1,
+      "name": "arrival:0-1"
+    },
+    {
+      "count": 1,
+      "name": "arrival:19-20"
+    }
+  ],
+  "location_hashtags": [
+    "sightseeing",
+    "activities",
+    "beach",
+    "family fun",
+    "city break",
+    "nightlife",
+    "events",
+    "famous cities",
+    "romance",
+    "culture",
+    "food\u0026drink",
+    "sports",
+    "adventure",
+    "unusual",
+    "music",
+    "festivals",
+    "diving\u0026snorkeling",
+    "budget-friendly",
+    "mountains",
+    "winter sport",
+    "concerts",
+    "surfing",
+    "hidden gems"
+  ],
+  "airlinesList": [
+    {
+      "filterName": "U2"
+    },
+    {
+      "filterName": "G4"
+    },
+    {
+      "filterName": "CY"
+    },
+    {
+      "filterName": "SY"
+    },
+    {
+      "filterName": "SL"
+    },
+    {
+      "filterName": "VV"
+    },
+    {
+      "filterName": "NH"
+    },
+    {
+      "filterName": "TX"
+    },
+    {
+      "filterName": "WK"
+    },
+    {
+      "filterName": "FZ"
+    },
+    {
+      "filterName": "QH"
+    },
+    {
+      "filterName": "VZ"
+    },
+    {
+      "filterName": "WY"
+    },
+    {
+      "filterName": "SP"
+    },
+    {
+      "filterName": "7W"
+    },
+    {
+      "filterName": "BR"
+    },
+    {
+      "filterName": "A9"
+    },
+    {
+      "filterName": "PM"
+    },
+    {
+      "filterName": "OU"
+    },
+    {
+      "filterName": "QZ"
+    },
+    {
+      "filterName": "R5"
+    },
+    {
+      "filterName": "HY"
+    },
+    {
+      "filterName": "6Y"
+    },
+    {
+      "filterName": "EI"
+    },
+    {
+      "filterName": "U8"
+    },
+    {
+      "filterName": "D8"
+    },
+    {
+      "filterName": "MS"
+    },
+    {
+      "filterName": "UL"
+    },
+    {
+      "filterName": "WO"
+    },
+    {
+      "filterName": "E9"
+    },
+    {
+      "filterName": "FHM"
+    },
+    {
+      "filterName": "ME"
+    },
+    {
+      "filterName": "WG"
+    },
+    {
+      "filterName": "BT"
+    },
+    {
+      "filterName": "KC"
+    },
+    {
+      "filterName": "VJ"
+    },
+    {
+      "filterName": "VY"
+    },
+    {
+      "filterName": "RC"
+    },
+    {
+      "filterName": "UJ"
+    },
+    {
+      "filterName": "RK"
+    },
+    {
+      "filterName": "OK"
+    },
+    {
+      "filterName": "W6"
+    },
+    {
+      "filterName": "BJ"
+    },
+    {
+      "filterName": "ET"
+    },
+    {
+      "filterName": "TK"
+    },
+    {
+      "filterName": "X1"
+    },
+    {
+      "filterName": "UP"
+    },
+    {
+      "filterName": "S4"
+    },
+    {
+      "filterName": "FT"
+    },
+    {
+      "filterName": "BY"
+    },
+    {
+      "filterName": "UK"
+    },
+    {
+      "filterName": "8U"
+    },
+    {
+      "filterName": "BW"
+    },
+    {
+      "filterName": "AY"
+    },
+    {
+      "filterName": "VS"
+    },
+    {
+      "filterName": "AK"
+    },
+    {
+      "filterName": "CM"
+    },
+    {
+      "filterName": "LA"
+    },
+    {
+      "filterName": "W2"
+    },
+    {
+      "filterName": "FLIXBUS"
+    },
+    {
+      "filterName": "GOOPTI"
+    },
+    {
+      "filterName": "G3"
+    },
+    {
+      "filterName": "QF"
+    },
+    {
+      "filterName": "TI"
+    },
+    {
+      "filterName": "XK"
+    },
+    {
+      "filterName": "TA"
+    },
+    {
+      "filterName": "TP"
+    },
+    {
+      "filterName": "2W"
+    },
+    {
+      "filterName": "DS"
+    },
+    {
+      "filterName": "GR"
+    },
+    {
+      "filterName": "H7"
+    },
+    {
+      "filterName": "3K"
+    },
+    {
+      "filterName": "T7"
+    },
+    {
+      "filterName": "XR"
+    },
+    {
+      "filterName": "AZ"
+    },
+    {
+      "filterName": "KL"
+    },
+    {
+      "filterName": "KU"
+    },
+    {
+      "filterName": "LM"
+    },
+    {
+      "filterName": "WS"
+    },
+    {
+      "filterName": "AC"
+    },
+    {
+      "filterName": "OB"
+    },
+    {
+      "filterName": "NK"
+    },
+    {
+      "filterName": "TG"
+    },
+    {
+      "filterName": "E4"
+    },
+    {
+      "filterName": "JX"
+    },
+    {
+      "filterName": "LX"
+    },
+    {
+      "filterName": "H2"
+    },
+    {
+      "filterName": "PQ"
+    },
+    {
+      "filterName": "EC"
+    },
+    {
+      "filterName": "BG"
+    },
+    {
+      "filterName": "9K"
+    },
+    {
+      "filterName": "FI"
+    },
+    {
+      "filterName": "FH"
+    },
+    {
+      "filterName": "0B"
+    },
+    {
+      "filterName": "AF"
+    },
+    {
+      "filterName": "B6"
+    },
+    {
+      "filterName": "DV"
+    },
+    {
+      "filterName": "B7"
+    },
+    {
+      "filterName": "DY"
+    },
+    {
+      "filterName": "NT"
+    },
+    {
+      "filterName": "KE"
+    },
+    {
+      "filterName": "H1"
+    },
+    {
+      "filterName": "REGIOJETB"
+    },
+    {
+      "filterName": "BUTAAIR"
+    },
+    {
+      "filterName": "5J"
+    },
+    {
+      "filterName": "EK"
+    },
+    {
+      "filterName": "KQ"
+    },
+    {
+      "filterName": "DD"
+    },
+    {
+      "filterName": "PR"
+    },
+    {
+      "filterName": "A2"
+    },
+    {
+      "filterName": "5W"
+    },
+    {
+      "filterName": "XY"
+    },
+    {
+      "filterName": "QR"
+    },
+    {
+      "filterName": "V7"
+    },
+    {
+      "filterName": "P5"
+    },
+    {
+      "filterName": "TS"
+    },
+    {
+      "filterName": "3L"
+    },
+    {
+      "filterName": "9M"
+    },
+    {
+      "filterName": "LS"
+    },
+    {
+      "filterName": "FJ"
+    },
+    {
+      "filterName": "EY"
+    },
+    {
+      "filterName": "JT"
+    },
+    {
+      "filterName": "Z2"
+    },
+    {
+      "filterName": "X3"
+    },
+    {
+      "filterName": "HC"
+    },
+    {
+      "filterName": "MEGABUSB"
+    },
+    {
+      "filterName": "DT"
+    },
+    {
+      "filterName": "F8"
+    },
+    {
+      "filterName": "MK"
+    },
+    {
+      "filterName": "CI"
+    },
+    {
+      "filterName": "LO"
+    },
+    {
+      "filterName": "BI"
+    },
+    {
+      "filterName": "FD"
+    },
+    {
+      "filterName": "XC"
+    },
+    {
+      "filterName": "EB"
+    },
+    {
+      "filterName": "AR"
+    },
+    {
+      "filterName": "OD"
+    },
+    {
+      "filterName": "6O"
+    },
+    {
+      "filterName": "5F"
+    },
+    {
+      "filterName": "5U"
+    },
+    {
+      "filterName": "AI"
+    },
+    {
+      "filterName": "H9"
+    },
+    {
+      "filterName": "J2"
+    },
+    {
+      "filterName": "NZ"
+    },
+    {
+      "filterName": "AS"
+    },
+    {
+      "filterName": "VW"
+    },
+    {
+      "filterName": "OA"
+    },
+    {
+      "filterName": "NO"
+    },
+    {
+      "filterName": "AM"
+    },
+    {
+      "filterName": "BF"
+    },
+    {
+      "filterName": "PG"
+    },
+    {
+      "filterName": "LG"
+    },
+    {
+      "filterName": "I5"
+    },
+    {
+      "filterName": "K6"
+    },
+    {
+      "filterName": "PC"
+    },
+    {
+      "filterName": "IZ"
+    },
+    {
+      "filterName": "OS"
+    },
+    {
+      "filterName": "G8"
+    },
+    {
+      "filterName": "PD"
+    },
+    {
+      "filterName": "ZG"
+    },
+    {
+      "filterName": "TR"
+    },
+    {
+      "filterName": "TN"
+    },
+    {
+      "filterName": "IX"
+    },
+    {
+      "filterName": "W9"
+    },
+    {
+      "filterName": "MU"
+    },
+    {
+      "filterName": "2L"
+    },
+    {
+      "filterName": "JU"
+    },
+    {
+      "filterName": "RJ"
+    },
+    {
+      "filterName": "OG"
+    },
+    {
+      "filterName": "AV"
+    },
+    {
+      "filterName": "DL"
+    },
+    {
+      "filterName": "FS"
+    },
+    {
+      "filterName": "PY"
+    },
+    {
+      "filterName": "P6"
+    },
+    {
+      "filterName": "SB"
+    },
+    {
+      "filterName": "EN"
+    },
+    {
+      "filterName": "PS"
+    },
+    {
+      "filterName": "3O"
+    },
+    {
+      "filterName": "H4"
+    },
+    {
+      "filterName": "AP"
+    },
+    {
+      "filterName": "AA"
+    },
+    {
+      "filterName": "WF"
+    },
+    {
+      "filterName": "A3"
+    },
+    {
+      "filterName": "SM"
+    },
+    {
+      "filterName": "EZZ"
+    },
+    {
+      "filterName": "TL"
+    },
+    {
+      "filterName": "NP"
+    },
+    {
+      "filterName": "SN"
+    },
+    {
+      "filterName": "J9"
+    },
+    {
+      "filterName": "SG"
+    },
+    {
+      "filterName": "OUIGO"
+    },
+    {
+      "filterName": "OZ"
+    },
+    {
+      "filterName": "KR"
+    },
+    {
+      "filterName": "GF"
+    },
+    {
+      "filterName": "HA"
+    },
+    {
+      "filterName": "JL"
+    },
+    {
+      "filterName": "SK"
+    },
+    {
+      "filterName": "SV"
+    },
+    {
+      "filterName": "VN"
+    },
+    {
+      "filterName": "Q6"
+    },
+    {
+      "filterName": "B0"
+    },
+    {
+      "filterName": "HV"
+    },
+    {
+      "filterName": "DE"
+    },
+    {
+      "filterName": "JA"
+    },
+    {
+      "filterName": "PX"
+    },
+    {
+      "filterName": "ZL"
+    },
+    {
+      "filterName": "UA"
+    },
+    {
+      "filterName": "AD"
+    },
+    {
+      "filterName": "UU"
+    },
+    {
+      "filterName": "SR"
+    },
+    {
+      "filterName": "TB"
+    },
+    {
+      "filterName": "9U"
+    },
+    {
+      "filterName": "BA"
+    },
+    {
+      "filterName": "JQ"
+    },
+    {
+      "filterName": "PK"
+    },
+    {
+      "filterName": "BZ"
+    },
+    {
+      "filterName": "KTB"
+    },
+    {
+      "filterName": "KF"
+    },
+    {
+      "filterName": "GA"
+    },
+    {
+      "filterName": "UX"
+    },
+    {
+      "filterName": "H6"
+    },
+    {
+      "filterName": "ID"
+    },
+    {
+      "filterName": "TU"
+    },
+    {
+      "filterName": "WE"
+    },
+    {
+      "filterName": "XQ"
+    },
+    {
+      "filterName": "CX"
+    },
+    {
+      "filterName": "EW"
+    },
+    {
+      "filterName": "6E"
+    },
+    {
+      "filterName": "RO"
+    },
+    {
+      "filterName": "FB"
+    },
+    {
+      "filterName": "7B"
+    },
+    {
+      "filterName": "AT"
+    },
+    {
+      "filterName": "QG"
+    },
+    {
+      "filterName": "3M"
+    },
+    {
+      "filterName": "GQ"
+    },
+    {
+      "filterName": "NSI"
+    },
+    {
+      "filterName": "1L"
+    },
+    {
+      "filterName": "BE"
+    },
+    {
+      "filterName": "PU"
+    },
+    {
+      "filterName": "WB"
+    },
+    {
+      "filterName": "SQ"
+    },
+    {
+      "filterName": "CD"
+    },
+    {
+      "filterName": "E5"
+    },
+    {
+      "filterName": "BLAB"
+    },
+    {
+      "filterName": "G9"
+    },
+    {
+      "filterName": "4N"
+    },
+    {
+      "filterName": "LH"
+    },
+    {
+      "filterName": "I2"
+    },
+    {
+      "filterName": "4Y"
+    },
+    {
+      "filterName": "IB"
+    },
+    {
+      "filterName": "VA"
+    },
+    {
+      "filterName": "TO"
+    },
+    {
+      "filterName": "IU"
+    },
+    {
+      "filterName": "ZB"
+    },
+    {
+      "filterName": "OV"
+    },
+    {
+      "filterName": "MH"
+    },
+    {
+      "filterName": "KM"
+    },
+    {
+      "filterName": "2B"
+    },
+    {
+      "filterName": "AH"
+    },
+    {
+      "filterName": "CZ"
+    },
+    {
+      "filterName": "6H"
+    },
+    {
+      "filterName": "VB"
+    },
+    {
+      "filterName": "FR"
+    },
+    {
+      "filterName": "Y9"
+    },
+    {
+      "filterName": "O2"
+    },
+    {
+      "filterName": "8P"
+    },
+    {
+      "filterName": "F3"
+    },
+    {
+      "filterName": "PB"
+    },
+    {
+      "filterName": "VH"
+    },
+    {
+      "filterName": "LY"
+    },
+    {
+      "filterName": "Y4"
+    },
+    {
+      "filterName": "GM"
+    },
+    {
+      "filterName": "QS"
+    },
+    {
+      "filterName": "F9"
+    },
+    {
+      "filterName": "VG"
+    }
+  ],
+  "airportsList": [
+    {
+      "filterName": "BUD",
+      "name": "Budapest Ferenc Liszt International"
+    },
+    {
+      "filterName": "ATH",
+      "name": "Athens International"
+    },
+    {
+      "filterName": "VIE",
+      "name": "Vienna International Airport"
+    },
+    {
+      "filterName": "IST",
+      "name": "Istanbul Airport"
+    },
+    {
+      "filterName": "LTN",
+      "name": "Luton"
+    },
+    {
+      "filterName": "BCN",
+      "name": "Barcelona–El Prat"
+    },
+    {
+      "filterName": "STN",
+      "name": "London Stansted"
+    },
+    {
+      "filterName": "RIX",
+      "name": "Riga International"
+    },
+    {
+      "filterName": "MAD",
+      "name": "Adolfo Suárez Madrid–Barajas"
+    },
+    {
+      "filterName": "EIN",
+      "name": "Eindhoven"
+    },
+    {
+      "filterName": "RUH",
+      "name": "King Khalid International"
+    },
+    {
+      "filterName": "LGW",
+      "name": "Gatwick"
+    },
+    {
+      "filterName": "IAH",
+      "name": "George Bush Intercontinental"
+    },
+    {
+      "filterName": "OTP",
+      "name": "Henri Coandă International"
+    },
+    {
+      "filterName": "BGY",
+      "name": "Milan Bergamo International Airport"
+    },
+    {
+      "filterName": "AYT",
+      "name": "Antalya"
+    },
+    {
+      "filterName": "SIN",
+      "name": "Singapore Changi"
+    },
+    {
+      "filterName": "BOJ",
+      "name": "Burgas"
+    },
+    {
+      "filterName": "LIS",
+      "name": "Lisbon Portela"
+    },
+    {
+      "filterName": "MXP",
+      "name": "Milan–Malpensa"
+    },
+    {
+      "filterName": "HRG",
+      "name": "Hurghada International"
+    },
+    {
+      "filterName": "LHR",
+      "name": "Heathrow"
+    },
+    {
+      "filterName": "BER",
+      "name": "Berlin Brandenburg"
+    }
+  ],
+  "all_airlines": [
+    "U2",
+    "G4",
+    "CY",
+    "SY",
+    "SL",
+    "VV",
+    "NH",
+    "TX",
+    "WK",
+    "FZ",
+    "QH",
+    "VZ",
+    "WY",
+    "SP",
+    "7W",
+    "BR",
+    "A9",
+    "PM",
+    "OU",
+    "QZ",
+    "R5",
+    "HY",
+    "6Y",
+    "EI",
+    "U8",
+    "D8",
+    "MS",
+    "UL",
+    "WO",
+    "E9",
+    "FHM",
+    "ME",
+    "WG",
+    "BT",
+    "KC",
+    "VJ",
+    "VY",
+    "RC",
+    "UJ",
+    "RK",
+    "OK",
+    "W6",
+    "BJ",
+    "ET",
+    "TK",
+    "X1",
+    "UP",
+    "S4",
+    "FT",
+    "BY",
+    "UK",
+    "8U",
+    "BW",
+    "AY",
+    "VS",
+    "AK",
+    "CM",
+    "LA",
+    "W2",
+    "FLIXBUS",
+    "GOOPTI",
+    "G3",
+    "QF",
+    "TI",
+    "XK",
+    "TA",
+    "TP",
+    "2W",
+    "DS",
+    "GR",
+    "H7",
+    "3K",
+    "T7",
+    "XR",
+    "AZ",
+    "KL",
+    "KU",
+    "LM",
+    "WS",
+    "AC",
+    "OB",
+    "NK",
+    "TG",
+    "E4",
+    "JX",
+    "LX",
+    "H2",
+    "PQ",
+    "EC",
+    "BG",
+    "9K",
+    "FI",
+    "FH",
+    "0B",
+    "AF",
+    "B6",
+    "DV",
+    "B7",
+    "DY",
+    "NT",
+    "KE",
+    "H1",
+    "REGIOJETB",
+    "BUTAAIR",
+    "5J",
+    "EK",
+    "KQ",
+    "DD",
+    "PR",
+    "A2",
+    "5W",
+    "XY",
+    "QR",
+    "V7",
+    "P5",
+    "TS",
+    "3L",
+    "9M",
+    "LS",
+    "FJ",
+    "EY",
+    "JT",
+    "Z2",
+    "X3",
+    "HC",
+    "MEGABUSB",
+    "DT",
+    "F8",
+    "MK",
+    "CI",
+    "LO",
+    "BI",
+    "FD",
+    "XC",
+    "EB",
+    "AR",
+    "OD",
+    "6O",
+    "5F",
+    "5U",
+    "AI",
+    "H9",
+    "J2",
+    "NZ",
+    "AS",
+    "VW",
+    "OA",
+    "NO",
+    "AM",
+    "BF",
+    "PG",
+    "LG",
+    "I5",
+    "K6",
+    "PC",
+    "IZ",
+    "OS",
+    "G8",
+    "PD",
+    "ZG",
+    "TR",
+    "TN",
+    "IX",
+    "W9",
+    "MU",
+    "2L",
+    "JU",
+    "RJ",
+    "OG",
+    "AV",
+    "DL",
+    "FS",
+    "PY",
+    "P6",
+    "SB",
+    "EN",
+    "PS",
+    "3O",
+    "H4",
+    "AP",
+    "AA",
+    "WF",
+    "A3",
+    "SM",
+    "EZZ",
+    "TL",
+    "NP",
+    "SN",
+    "J9",
+    "SG",
+    "OUIGO",
+    "OZ",
+    "KR",
+    "GF",
+    "HA",
+    "JL",
+    "SK",
+    "SV",
+    "VN",
+    "Q6",
+    "B0",
+    "HV",
+    "DE",
+    "JA",
+    "PX",
+    "ZL",
+    "UA",
+    "AD",
+    "UU",
+    "SR",
+    "TB",
+    "9U",
+    "BA",
+    "JQ",
+    "PK",
+    "BZ",
+    "KTB",
+    "KF",
+    "GA",
+    "UX",
+    "H6",
+    "ID",
+    "TU",
+    "WE",
+    "XQ",
+    "CX",
+    "EW",
+    "6E",
+    "RO",
+    "FB",
+    "7B",
+    "AT",
+    "QG",
+    "3M",
+    "GQ",
+    "NSI",
+    "1L",
+    "BE",
+    "PU",
+    "WB",
+    "SQ",
+    "CD",
+    "E5",
+    "BLAB",
+    "G9",
+    "4N",
+    "LH",
+    "I2",
+    "4Y",
+    "IB",
+    "VA",
+    "TO",
+    "IU",
+    "ZB",
+    "OV",
+    "MH",
+    "KM",
+    "2B",
+    "AH",
+    "CZ",
+    "6H",
+    "VB",
+    "FR",
+    "Y9",
+    "O2",
+    "8P",
+    "F3",
+    "PB",
+    "VH",
+    "LY",
+    "Y4",
+    "GM",
+    "QS",
+    "F9",
+    "VG"
+  ],
+  "all_stopover_airports": [
+    "BUD",
+    "ATH",
+    "VIE",
+    "IST",
+    "LTN",
+    "BCN",
+    "STN",
+    "RIX",
+    "MAD",
+    "EIN",
+    "RUH",
+    "LGW",
+    "IAH",
+    "OTP",
+    "BGY",
+    "AYT",
+    "SIN",
+    "BOJ",
+    "LIS",
+    "MXP",
+    "HRG",
+    "LHR",
+    "BER"
+  ],
+  "all_stopover_countries": [
+    "GR",
+    "DE",
+    "US",
+    "SG",
+    "HU",
+    "IT",
+    "EG",
+    "PT",
+    "GB",
+    "SA",
+    "RO",
+    "LV",
+    "NL",
+    "TR",
+    "ES",
+    "BG",
+    "AT"
+  ],
+  "all_prices": {
+    "100-106": 4,
+    "106-112": 1,
+    "112-119": 1,
+    "119-126": 1,
+    "126-133": 1,
+    "141-150": 1,
+    "150-158": 4,
+    "168-178": 2,
+    "178-188": 1,
+    "211-224": 1,
+    "251-266": 1,
+    "316-335": 2,
+    "335-355": 1,
+    "35-38": 1,
+    "376-398": 1,
+    "398-422": 3,
+    "40-42": 1,
+    "42-45": 5,
+    "422-447": 1,
+    "45-47": 1,
+    "47-50": 8,
+    "50-53": 3,
+    "53-56": 1,
+    "531-562": 1,
+    "56-60": 1,
+    "562-596": 2,
+    "60-63": 6,
+    "63-67": 2,
+    "67-71": 6,
+    "71-75": 4,
+    "75-79": 2,
+    "79-84": 4,
+    "84-89": 3,
+    "89-94": 4
+  },
+  "del": 0,
+  "currency_rate": 1,
+  "connections": [],
+  "refresh": [],
+  "ref_tasks": [],
+  "sort_version": 0
+}
