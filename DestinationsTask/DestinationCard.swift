@@ -51,6 +51,7 @@ extension FlightStruct {
         if let details = stopoversDetails {
             result.append(details)
         }
+        result.append(String(format: NSLocalizedString("%@ flight time", comment: "flight duration"), fly_duration))
         return result.joined(separator: NSLocalizedString(", ", comment: "flight details separataor"))
     }
     var departureDate: Date {
