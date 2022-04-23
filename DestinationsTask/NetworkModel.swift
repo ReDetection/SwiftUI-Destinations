@@ -8,6 +8,7 @@ struct FlightsResponse: Decodable {
 struct FlightStruct: Decodable {
     let id: String
     let cityTo: String
+    let dTimeUTC: TimeInterval
     let fly_duration: String
     var decimalPrice: NSDecimalNumber {
         return NSDecimalNumber(decimal: price)

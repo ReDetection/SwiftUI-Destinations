@@ -43,11 +43,31 @@ extension NSDecimalNumber {
 
 extension FlightStruct {
     var routeDetails: String {
-        var result = ""
+        var result: [String] = []
+        if let date = readableDepartureDate, let time = readableDepartureTime {
+            let format = NSLocalizedString("%@ %@", comment: "flight relative date and absolute time")
+            result.append(String(format: format, date.capitalizingFirstLetter, time))
+        }
         if let details = stopoversDetails {
             result.append(details)
         }
-        return result
+        return result.joined(separator: NSLocalizedString(", ", comment: "flight details separataor"))
+    }
+    var departureDate: Date {
+        return Date(timeIntervalSince1970: self.dTimeUTC).toLocalTimeZone()
+    }
+    private var readableDepartureTime: String? {
+        let formatter = DateFormatter()
+        formatter.timeStyle = .short
+        formatter.timeZone = TimeZone.current
+        formatter.locale = Locale.current
+        return formatter.string(from: departureDate)
+    }
+    private var readableDepartureDate: String? {
+        let formatter = RelativeDateTimeFormatter()
+        formatter.dateTimeStyle = .named
+        formatter.locale = Locale.current
+        return formatter.string(for: departureDate)
     }
     private var stopoversDetails: String? {
         guard let first = route.first, first.cityTo != "deprecated" else { return nil }
@@ -63,11 +83,17 @@ extension FlightStruct {
     }
 }
 
+extension String {
+    var capitalizingFirstLetter: String {
+        return prefix(1).capitalized + dropFirst()
+    }
+}
 
 struct DestinationCard_Previews: PreviewProvider {
     static var previews: some View {
         let flight = FlightStruct(id: "abc",
                                   cityTo: "Dublin",
+                                  dTimeUTC: Date(timeIntervalSinceNow: 12300).timeIntervalSince1970,
                                   fly_duration: "2h 30m",
                                   price: 3016.44,
                                   route: [RouteStruct(cityTo: "London"), RouteStruct(cityTo: "Paris"), RouteStruct(cityTo: "Paris"), RouteStruct(cityTo: "Dublin")],
