@@ -19,6 +19,7 @@ class DestinationsTaskTests: XCTestCase {
             }
             expectation.fulfill()
         } receiveValue: { response in
+            XCTAssertEqual(response.currency, "EUR")
             XCTAssertEqual(response.data.count, 10)
             XCTAssertEqual(response.data[0].id, "1f2f032d4aeb00006aa4bb45_0|032d01af4aeb0000e2b22422_0")
             XCTAssertEqual(response.data[0].mapIdfrom, "brno_cz")

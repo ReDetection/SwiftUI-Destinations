@@ -2,6 +2,7 @@ import Foundation
 
 struct FlightsResponse: Decodable {
     let data: [FlightStruct]
+    let currency: String
 }
 
 struct FlightStruct: Decodable {
@@ -11,7 +12,7 @@ struct FlightStruct: Decodable {
     var decimalPrice: NSDecimalNumber {
         return NSDecimalNumber(decimal: price)
     }
-    private let price: Decimal
+    let price: Decimal
     let route: [RouteStruct]
     let mapIdfrom: String
     let mapIdto: String
