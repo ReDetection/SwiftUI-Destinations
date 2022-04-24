@@ -30,7 +30,8 @@ class KiwiSearch {
             .eraseToAnyPublisher()
     }
     
-    func imagePublisher(url: URL) -> AnyPublisher<UIImage, Error> {
+    func imagePublisher(mapId: String, size: String = "600x600") -> AnyPublisher<UIImage, Error> {
+        let url = URL(string: "https://images.kiwi.com/photos/\(size)/\(mapId).jpg")!
         return urlSession.httpResponsePublisher(for: url)
             .tryMap { (data, response) in
                 guard let image = UIImage(data: data) else { throw NetworkExchangeErrors.imageError }
