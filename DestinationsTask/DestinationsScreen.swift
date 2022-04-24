@@ -10,6 +10,12 @@ class ViewModel: ObservableObject {
 struct DestinationsScreen: View {
     @ObservedObject var viewModel: ViewModel
     
+    init(viewModel: ViewModel) {
+        self.viewModel = viewModel
+        UIPageControl.appearance().currentPageIndicatorTintColor = .gray
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.black.withAlphaComponent(0.2)
+    }
+    
     var body: some View {
         if viewModel.flights.isEmpty {
             Text("Loading...")
