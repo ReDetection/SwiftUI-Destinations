@@ -12,7 +12,7 @@
 		361885C62813A165007F92DF /* DestinationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361885C52813A165007F92DF /* DestinationCard.swift */; };
 		361885C8281427E8007F92DF /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361885C7281427E8007F92DF /* DateExtensions.swift */; };
 		36F29F01280C08A3001AE598 /* DestinationsTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F29F00280C08A3001AE598 /* DestinationsTaskApp.swift */; };
-		36F29F03280C08A3001AE598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F29F02280C08A3001AE598 /* ContentView.swift */; };
+		36F29F03280C08A3001AE598 /* DestinationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F29F02280C08A3001AE598 /* DestinationsScreen.swift */; };
 		36F29F05280C08A4001AE598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F29F04280C08A4001AE598 /* Assets.xcassets */; };
 		36F29F08280C08A4001AE598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F29F07280C08A4001AE598 /* Preview Assets.xcassets */; };
 		36F29F12280C08A4001AE598 /* DestinationsTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F29F11280C08A4001AE598 /* DestinationsTaskTests.swift */; };
@@ -37,7 +37,7 @@
 		361885C7281427E8007F92DF /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		36F29EFD280C08A3001AE598 /* DestinationsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DestinationsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F29F00280C08A3001AE598 /* DestinationsTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsTaskApp.swift; sourceTree = "<group>"; };
-		36F29F02280C08A3001AE598 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36F29F02280C08A3001AE598 /* DestinationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsScreen.swift; sourceTree = "<group>"; };
 		36F29F04280C08A4001AE598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36F29F07280C08A4001AE598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36F29F0D280C08A4001AE598 /* DestinationsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestinationsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				36F29F00280C08A3001AE598 /* DestinationsTaskApp.swift */,
-				36F29F02280C08A3001AE598 /* ContentView.swift */,
+				36F29F02280C08A3001AE598 /* DestinationsScreen.swift */,
 				361885C52813A165007F92DF /* DestinationCard.swift */,
 				36F29F2E280C0900001AE598 /* KiwiSearch.swift */,
 				361885C2281069DD007F92DF /* NetworkModel.swift */,
@@ -217,7 +217,7 @@
 			files = (
 				361885C62813A165007F92DF /* DestinationCard.swift in Sources */,
 				361885C3281069DD007F92DF /* NetworkModel.swift in Sources */,
-				36F29F03280C08A3001AE598 /* ContentView.swift in Sources */,
+				36F29F03280C08A3001AE598 /* DestinationsScreen.swift in Sources */,
 				36F29F01280C08A3001AE598 /* DestinationsTaskApp.swift in Sources */,
 				36F29F2F280C0900001AE598 /* KiwiSearch.swift in Sources */,
 				361885C8281427E8007F92DF /* DateExtensions.swift in Sources */,

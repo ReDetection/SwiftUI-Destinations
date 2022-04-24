@@ -4,7 +4,7 @@ import SwiftUI
 struct DestinationsTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DestinationsScreen(viewModel: ViewModel())
         }
     }
 }
