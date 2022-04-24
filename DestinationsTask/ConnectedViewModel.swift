@@ -2,6 +2,9 @@ import Foundation
 import Combine
 import UIKit
 
+private let lastFlightCitiesKey = "lastFlightCitiesKey"
+private let lastViewDate = "lastViewDate"
+
 class ConnectedViewModel: ViewModel {
     let api: KiwiSearch
     private var cancellables: Set<AnyCancellable> = []
@@ -9,8 +12,10 @@ class ConnectedViewModel: ViewModel {
         didSet {
             guard let newValue = flightResponse else { return }
             self.objectWillChange.send()
-            flights = newValue.data
+            let filteredCities = self.citiesToFilterOut()
+            flights = newValue.data.filter { !filteredCities.contains($0.mapIdto) }.prefix(5).map { $0 }
             currency = newValue.currency
+            saveHistory(cities: flights.map { $0.mapIdto })
             print("Assigned \(flights.count) new flights")
         }
     }
@@ -46,6 +51,17 @@ class ConnectedViewModel: ViewModel {
                 self.destinationImages[mapId] = image
             }
             .store(in: &cancellables)
+    }
+    
+    func saveHistory(cities: [String]) {
+        UserDefaults.standard.set(cities, forKey: lastFlightCitiesKey)
+        UserDefaults.standard.set(Date(), forKey: lastViewDate)
+    }
+    
+    func citiesToFilterOut() -> [String] {
+        guard let savedDate = UserDefaults.standard.value(forKey: lastViewDate) as? Date,
+              savedDate.isYesterday else { return [] }
+        return UserDefaults.standard.value(forKey: lastFlightCitiesKey) as? [String] ?? []
     }
     
 }
