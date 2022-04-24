@@ -13,7 +13,8 @@ class DestinationsTaskTests: XCTestCase {
     func testFlightsParsing() throws {
         let api = KiwiSearch(network: MockedNetwork(responseData: fixture))
         let expectation = self.expectation(description: "Should finish")
-        api.flightsPublisher(from: "somewhere", limit: 10).sink { result in
+        let anyDate = Date()
+        api.flightsPublisher(from: "somewhere", dateFrom: anyDate, dateTo: anyDate, limit: 10).sink { result in
             if case .failure(let error) = result {
                 XCTFail("\(error)")
             }
@@ -31,7 +32,7 @@ class DestinationsTaskTests: XCTestCase {
     func testFlightsParsingE2E() throws {
         let api = KiwiSearch(network: URLSession(configuration: .default))
         let expectation = self.expectation(description: "Should finish")
-        api.flightsPublisher(from: "prague_cz", limit: 3).sink { result in
+        api.flightsPublisher(from: "prague_cz", dateFrom: Date(), dateTo: Date(timeIntervalSinceNow: 100000), limit: 3).sink { result in
             if case .failure(let error) = result {
                 XCTFail("\(error)")
             }

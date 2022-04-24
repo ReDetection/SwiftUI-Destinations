@@ -8,16 +8,21 @@ protocol NetworkDependency {
 
 class KiwiSearch {
     let urlSession: NetworkDependency
+    let dateFormatter = DateFormatter()
     
     init(network: NetworkDependency) {
         self.urlSession = network
+        dateFormatter.dateFormat = "dd/MM/yyyy"
     }
     
-    func flightsPublisher(from: String = "49.2-16.61-250km", limit: Int) -> AnyPublisher<FlightsResponse, Error> {
-        var components = URLComponents(string: "https://api.skypicker.com/flights?v=3&sort=popularity&asc=0&locale=en&children=0&infants=0&to=anywhere&featureName=aggregateResults&dateFrom=26%2F06%2F2022&dateTo=18%2F07%2F2022&typeFlight=oneway&returnFrom&returnTo&one_per_date=0&oneforcity=1&wait_for_refresh=0&adults=1&partner=skypicker")!
+    func flightsPublisher(from: String = "49.2-16.61-250km", dateFrom: Date, dateTo: Date, limit: Int) -> AnyPublisher<FlightsResponse, Error> {
+        var components = URLComponents(string: "https://api.skypicker.com/flights?v=3&sort=popularity&asc=0&children=0&infants=0&to=anywhere&featureName=aggregateResults&typeFlight=oneway&returnFrom&returnTo&one_per_date=0&oneforcity=1&wait_for_refresh=0&adults=1&partner=skypicker")!
         components.queryItems!.append(contentsOf: [
             URLQueryItem(name: "flyFrom", value: from),
             URLQueryItem(name: "limit", value: String(limit)),
+            URLQueryItem(name: "locale", value: Locale.current.languageCode),
+            URLQueryItem(name: "dateFrom", value: dateFormatter.string(from: dateFrom)),
+            URLQueryItem(name: "dateTo", value: dateFormatter.string(from: dateTo)),
         ])
         return urlSession.httpResponsePublisher(for: components.url!)
             .tryMap { $0.data }
