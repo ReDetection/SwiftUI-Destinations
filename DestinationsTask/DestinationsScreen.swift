@@ -9,20 +9,26 @@ class ViewModel: ObservableObject {
 
 struct DestinationsScreen: View {
     @ObservedObject var viewModel: ViewModel
+    
     var body: some View {
-        TabView {
-            ForEach(viewModel.flights) { flight in
-                DestinationCard(destination: flight, currency: viewModel.currency, image: viewModel.destinationImages[flight.mapIdto] ?? UIImage(named: "default")!)
+        if viewModel.flights.isEmpty {
+            Text("Loading...")
+        } else {
+            TabView {
+                ForEach(viewModel.flights) { flight in
+                    DestinationCard(destination: flight, currency: viewModel.currency, image: viewModel.destinationImages[flight.mapIdto] ?? UIImage(named: "default")!)
+                }
             }
+            .tabViewStyle(PageTabViewStyle())
+            .ignoresSafeArea()
         }
-        .tabViewStyle(PageTabViewStyle())
-        .ignoresSafeArea()
     }
 }
 
 struct DestinationsScreen_Previews: PreviewProvider {
     static var previews: some View {
         DestinationsScreen(viewModel: demoModel)
+        DestinationsScreen(viewModel: ViewModel())
     }
     
     static var demoModel: ViewModel {

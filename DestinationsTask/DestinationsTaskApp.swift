@@ -4,7 +4,9 @@ import SwiftUI
 struct DestinationsTaskApp: App {
     var body: some Scene {
         WindowGroup {
-            DestinationsScreen(viewModel: ViewModel())
+//            let network = MockedNetwork(responseData: try! Data(contentsOf: Bundle(for: KiwiSearch.self).url(forResource: "flights", withExtension: "json")!))
+            let network = URLSession(configuration: .default)
+            DestinationsScreen(viewModel: ConnectedViewModel(api: KiwiSearch(network: network)))
         }
     }
 }

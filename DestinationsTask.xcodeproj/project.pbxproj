@@ -11,6 +11,7 @@
 		361885C42812413C007F92DF /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361885C2281069DD007F92DF /* NetworkModel.swift */; };
 		361885C62813A165007F92DF /* DestinationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361885C52813A165007F92DF /* DestinationCard.swift */; };
 		361885C8281427E8007F92DF /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361885C7281427E8007F92DF /* DateExtensions.swift */; };
+		361885CA28150687007F92DF /* ConnectedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361885C928150687007F92DF /* ConnectedViewModel.swift */; };
 		36F29F01280C08A3001AE598 /* DestinationsTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F29F00280C08A3001AE598 /* DestinationsTaskApp.swift */; };
 		36F29F03280C08A3001AE598 /* DestinationsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F29F02280C08A3001AE598 /* DestinationsScreen.swift */; };
 		36F29F05280C08A4001AE598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F29F04280C08A4001AE598 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		361885C2281069DD007F92DF /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		361885C52813A165007F92DF /* DestinationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCard.swift; sourceTree = "<group>"; };
 		361885C7281427E8007F92DF /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		361885C928150687007F92DF /* ConnectedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedViewModel.swift; sourceTree = "<group>"; };
 		36F29EFD280C08A3001AE598 /* DestinationsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DestinationsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F29F00280C08A3001AE598 /* DestinationsTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsTaskApp.swift; sourceTree = "<group>"; };
 		36F29F02280C08A3001AE598 /* DestinationsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsScreen.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				36F29F00280C08A3001AE598 /* DestinationsTaskApp.swift */,
 				36F29F02280C08A3001AE598 /* DestinationsScreen.swift */,
+				361885C928150687007F92DF /* ConnectedViewModel.swift */,
 				361885C52813A165007F92DF /* DestinationCard.swift */,
 				36F29F2E280C0900001AE598 /* KiwiSearch.swift */,
 				361885C2281069DD007F92DF /* NetworkModel.swift */,
@@ -217,6 +220,7 @@
 			files = (
 				361885C62813A165007F92DF /* DestinationCard.swift in Sources */,
 				361885C3281069DD007F92DF /* NetworkModel.swift in Sources */,
+				361885CA28150687007F92DF /* ConnectedViewModel.swift in Sources */,
 				36F29F03280C08A3001AE598 /* DestinationsScreen.swift in Sources */,
 				36F29F01280C08A3001AE598 /* DestinationsTaskApp.swift in Sources */,
 				36F29F2F280C0900001AE598 /* KiwiSearch.swift in Sources */,
