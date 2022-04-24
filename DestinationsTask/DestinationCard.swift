@@ -73,8 +73,8 @@ extension FlightStruct {
     private var stopoversDetails: String? {
         guard let first = route.first, first.cityTo != "deprecated" else { return nil }
         let stopoversCount = route.count - 1
-        if route.count == 0 {
-            return NSLocalizedString("Direct", comment: "Direct route, no stopovers")
+        if stopoversCount == 0 {
+            return NSLocalizedString("direct", comment: "Direct route, no stopovers")
         }
         let listFormatter = ListFormatter()
         listFormatter.locale = .current
