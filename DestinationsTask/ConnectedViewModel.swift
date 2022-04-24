@@ -8,18 +8,7 @@ private let lastViewDate = "lastViewDate"
 class ConnectedViewModel: ViewModel {
     let api: KiwiSearch
     private var cancellables: Set<AnyCancellable> = []
-    private var flightResponse: FlightsResponse? {
-        didSet {
-            guard let newValue = flightResponse else { return }
-            self.objectWillChange.send()
-            let filteredCities = self.citiesToFilterOut()
-            flights = newValue.data.filter { !filteredCities.contains($0.mapIdto) }.prefix(5).map { $0 }
-            currency = newValue.currency
-            saveHistory(cities: flights.map { $0.mapIdto })
-            print("Assigned \(flights.count) new flights")
-        }
-    }
-    
+
     init(api: KiwiSearch) {
         self.api = api
         super.init()
@@ -28,9 +17,21 @@ class ConnectedViewModel: ViewModel {
             .share()
         
         flights
-            .map { (a: FlightsResponse) -> FlightsResponse? in return a }
+            .map { response in
+                let filteredCities = self.citiesToFilterOut()
+                return response.data.filter { !filteredCities.contains($0.mapIdto) }.prefix(5).map { $0 }
+            }
+            .handleEvents(receiveOutput: { flights in
+                self.saveHistory(cities: flights.map { $0.mapIdto })
+            })
             .receive(on: DispatchQueue.main)
-            .assign(to: \.flightResponse, on: self)
+            .assign(to: \.flights, on: self)
+            .store(in: &cancellables)
+        
+        flights
+            .map { $0.currency }
+            .receive(on: DispatchQueue.main)
+            .assign(to: \.currency, on: self)
             .store(in: &cancellables)
         
         flights
