@@ -4,6 +4,7 @@ import Combine
 class ViewModel: ObservableObject {
     @Published var flights: [FlightStruct] = []
     @Published var currency = "EUR"
+    @Published var destinationImages: [String: UIImage] = [:]
 }
 
 struct DestinationsScreen: View {
@@ -11,8 +12,7 @@ struct DestinationsScreen: View {
     var body: some View {
         TabView {
             ForEach(viewModel.flights) { flight in
-                DestinationCard(destination: flight, currency: viewModel.currency, image: UIImage(named: "default")!)
-                
+                DestinationCard(destination: flight, currency: viewModel.currency, image: viewModel.destinationImages[flight.mapIdto] ?? UIImage(named: "default")!)
             }
         }
         .tabViewStyle(PageTabViewStyle())
@@ -46,6 +46,9 @@ struct DestinationsScreen_Previews: PreviewProvider {
                          mapIdfrom: "amsterdam_nl",
                          mapIdto: "berlin_de"),
         ]
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            result.destinationImages["dublin_ie"] = UIImage(named: "demo_picture")
+        }
         return result
     }
 }
